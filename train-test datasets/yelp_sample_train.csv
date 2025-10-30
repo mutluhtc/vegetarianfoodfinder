@@ -157,7 +157,7 @@ FISH GOAN CURRY,"Fish fillet cooked with coconut milk, onions, and aromatic herb
 D6. Sticky Rice With Banana,Sweet sticky rice and banana wrapped and steamed inside banana leaves.,Thai,Vegetarian
 Combo Pan Fried Noodle,,Chinese,Vegetarian
 Carpaccio di Manzo* with Truffle Oil,,Italian,Non-Vegetarian
-Enchiladas,"V GF | green enchilada sauce, queso fresco, crema, salsa roja | chicken tinga",Mexican,Vegetarian
+Enchiladas,"V GF | green enchilada sauce, queso fresco, crema, salsa roja | chicken tinga",Mexican,Non-Vegetarian
 Bayou Benedict,"Beer Battered Green Tomatoes, Lump Crab, Poached Eggs, Cajun Sundried Tomato Barnaise, English Muffin",Italian,Non-Vegetarian
 E Rajma Aloo,"Kidney Beans Cooked with Potatoes, Herbs & Spices",Indian,Vegetarian
 House Special Soft Spicy Dry Beef,,Chinese,Non-Vegetarian
@@ -294,7 +294,7 @@ Grilled Chicken Breast (Salad Addition),,American,Non-Vegetarian
 Fried Wonton,Deep fried wonton wrapped with ground chicken served with sweet & sour sauce.,Thai,Non-Vegetarian
 Hot & Sour Soup (Qt.),,Chinese,Vegetarian
 Chicken 65,,Mexican,Non-Vegetarian
-Kids LB Burger w/ fries,(AGES 12 AND UNDER),Italian,Vegetarian
+Kids LB Burger w/ fries,(AGES 12 AND UNDER),Italian,Non-Vegetarian
 Avocado Salad (1/2),"Avocados, black bean corn salsa, and feta served over mixed greens with your choice of any dressing.",American,Vegetarian
 Dickle,,American,Vegetarian
 Green Papaya Salad,"Poached shrimp + tomato + Thai basil + mint + shredded green papaya, carrot + red pepper + chili lime dressing + toasted cashew.",American,Non-Vegetarian
@@ -314,7 +314,7 @@ Yellow Curry (Beef or Shrimp or Crispy Chicken),"Onion,tomato,carrots,red pepper
 churros,"dulce de leche, cinnamon sugar",Mexican,Vegetarian
 Tonnato,"bluefine tuna, heirloom tomato, tuna mayonnaise, veal gelee, capers",Italian,Non-Vegetarian
 Saag Paneer GF,Paneer (Indian cottage cheese) cooked in a creamy spinach-based sauce infused with aromatic spices,Indian,Vegetarian
-DIAVOLA,"Crushed Tomatoes, Mozzarella, Bell Pepper, Calabrese Salame, Kalamata Olives, Red Onions, Basil, Oregano, Black Pepper, and Gusto's Chill Oil",Italian,Vegetarian
+DIAVOLA,"Crushed Tomatoes, Mozzarella, Bell Pepper, Calabrese Salame, Kalamata Olives, Red Onions, Basil, Oregano, Black Pepper, and Gusto's Chill Oil",Italian,Non-Vegetarian
 Shrimp with Broccoli Pint,Served with white rice,Chinese,Non-Vegetarian
 Vegan Tomato Coconut Soup,Tomato sauce cooked with coconut milk,Indian,Vegetarian
 Dozen Pistachio Baklava,,Mediterranean,Vegetarian
@@ -403,7 +403,7 @@ GINGER CHICKEN,"Sauted Chicken with Ginger, Mushrooms, Onions & Mushrooms in Oys
 Caffe Cubano,,Mediterranean,Vegetarian
 Zinfandel,GLASS,Thai,Vegetarian
 Shrimp Papaya Salad,,Chinese,Non-Vegetarian
-Tacos 4x12,"Four tacos your way—mix meats, add toppings, and dive into bold, street-style flavor.",Mexican,Vegetarian
+Tacos 4x12,"Four tacos your way—mix meats, add toppings, and dive into bold, street-style flavor.",Mexican,Non-Vegetarian
 ROMAN CHOP (1/2),"Chopped romaine, grilled chicken breast, bacon, peppadew peppers, grape tomatoes, roasted beets, black olives, pistachios and bleu cheese crumbles tossed in our balsamic vinaigrette and ranch dressing.",American,Non-Vegetarian
 Basil Eggplant Salmon Fillet,"Sauteed eggplant with garlic, bell pepper, onion, carrot, and basil leaves. stir fried in house soy sauce. (GF option available)",Thai,Non-Vegetarian
 Kah-Tahr poleko(V),"Grilled jackfruit marinated with herbs and spices, served with tomatillo sauce.",Indian,Vegetarian
@@ -707,7 +707,7 @@ Veggie Ranchero,Our Ranchero sauce w/extra potatoes. Served w/rice and 2 tortill
 House Rosemary Bread VGN,"homemade with rosemary, garlic, italian spices, extra virgin olive oil served w/ whipped butter (449 CAL)",Mediterranean,Vegetarian
 FRIES Side,,Italian,Vegetarian
 Nonna's Lasagna,"Bolognese bechamel, parmigiano reggiano.",Italian,Non-Vegetarian
-Lotus Root on Rice,Lotus roots served with various assorted meats.,Chinese,Vegetarian
+Lotus Root on Rice,Lotus roots served with various assorted meats.,Chinese,Non-Vegetarian
 Side Falafel,5 Patties served with Tahini Sauce.,Mediterranean,Vegetarian
 Aperol Spritz,"Aperol aperitif, prosecc & orange slice",Italian,Vegetarian
 Sausage & Peppers,"Sweet Italian Sausage, Toasted Peppers & Onions, Marinara Sauce, On A Toasted Hero Roll",Italian,Non-Vegetarian
@@ -829,7 +829,7 @@ Salmn a la Parrilla (Large Plates),"grilled scottish salmon, cilantro pesto, roa
 SINGLE TAMALE MOLE,(CONTAINS NUTS),Mexican,Vegetarian
 SPINACH BORAK (1/2 Dozen),"A seasoned mixture of spinach, onions, sumac, and lemon juice; stuffed in our special dough and baked in our wood-fired oven.",Mediterranean,Vegetarian
 Sambar Soup,Lentil soup with mixed vegetables and tamarind,Indian,Vegetarian
-YUM CALAMARI,"Calamari with cilantro, onions, tomatoes in a spicy lime dressing.",Thai,Vegetarian
+YUM CALAMARI,"Calamari with cilantro, onions, tomatoes in a spicy lime dressing.",Thai,Non-Vegetarian
 Beef Kebab,"Two skewers, ground beef mixed with lamb seasoned with onions and spices",Mediterranean,Non-Vegetarian
 Mexican Caesar,"Romaine lettuce tossed in Caesar dressing, topped with roasted corn, pepitas, queso fresco, pico de gallo, avocados & chicken fajita.",Mexican,Non-Vegetarian
 "Green Curry Shrimp, Beef, Squid or Fish Filet","Slightly sweet green chili based curry w/ bamboo shoots & eggplant, peas, & carrots",Thai,Non-Vegetarian
