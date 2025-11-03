@@ -4,6 +4,7 @@ import pandas as pd
 import pydeck as pdk
 import requests
 import math
+import os
 
 st.set_page_config(page_title="VegFinder | Discover Vegetarian-Friendly Restaurants", layout="wide")
 
@@ -74,8 +75,7 @@ def get_coordinates_from_zip(zip_code):
 
 
 # --- Load data ---
-data = load_json("berkeley_restaurants_with_vegetarian_labels.json")
-
+data = load_json(os.path.join(os.path.dirname(__file__), "berkeley_restaurants_with_vegetarian_labels.json"))
 # --- Header ---
 st.title("🥗 Veggie Food Finder — Your Personalized Vegetarian Food Map")
 st.markdown("""
