@@ -14,8 +14,8 @@ MODEL_NAME = 'bert-base-uncased'
 FINAL_MODEL_PATH = HF_REPO_ID 
 
 # File paths - EDIT THESE AS NEEDED
-INPUT_JSON_FILE = "./structured_JSON_data_files/berkeley_restaurants_with_structured_menus.json"
-OUTPUT_JSON_FILE = "./final_JSON/berkeley_restaurants_with_vegetarian_labels.json"
+INPUT_JSON_FILE = "./structured_JSON_data_files/atlanta_restaurants_with_structured_menus.json"
+OUTPUT_JSON_FILE = "./final_JSON/atlanta_restaurants_with_vegetarian_labels.json"
 
 # Define label map and its inverse
 ID_TO_LABEL = {0: 'Vegetarian', 1: 'Non-Vegetarian'}
