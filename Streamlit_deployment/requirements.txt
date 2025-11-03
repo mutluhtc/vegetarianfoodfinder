@@ -1,8 +1,7 @@
-python-3.11
 streamlit
 pandas
 numpy
 python-dotenv
-st_aggrid
+streamlit-aggrid
 folium
 streamlit-folium
