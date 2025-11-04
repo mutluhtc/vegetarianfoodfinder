@@ -5,6 +5,7 @@ import pydeck as pdk
 import requests
 import math
 import os
+import glob
 
 st.set_page_config(page_title="VegFinder | Discover Vegetarian-Friendly Restaurants", layout="wide")
 
@@ -16,7 +17,6 @@ def haversine(lat1, lon1, lat2, lon2):
     dlambda = math.radians(lon2 - lon1)
     a = math.sin(dphi / 2)**2 + math.cos(phi1) * math.cos(phi2) * math.sin(dlambda / 2)**2
     return 2 * R * math.atan2(math.sqrt(a), math.sqrt(1 - a))
-
 
 # --- Cuisine mapping ---
 CUISINE_MAP = {
@@ -32,7 +32,6 @@ CUISINE_MAP = {
 }
 DEFAULT_CATEGORY = "Vegan/Vegetarian"
 
-
 def normalize_cuisine(categories_str):
     """Map detailed Yelp categories to one of the 8 main cuisines."""
     if not categories_str or not isinstance(categories_str, str):
@@ -45,18 +44,33 @@ def normalize_cuisine(categories_str):
     return DEFAULT_CATEGORY
 
 
-# --- Load JSON data ---
+# --- Load all JSONs dynamically ---
 @st.cache_data
-def load_json(file_path):
-    with open(file_path, "r") as f:
-        data = json.load(f)
-    valid_data = [r for r in data if r.get("menu") and len(r["menu"]) > 0]
+def load_all_jsons(folder_path):
+    """Load and merge all JSON files from a folder into one list."""
+    all_data = []
+    json_files = glob.glob(os.path.join(folder_path, "*.json"))
+
+    for file in json_files:
+        try:
+            with open(file, "r") as f:
+                data = json.load(f)
+                if isinstance(data, list):
+                    all_data.extend(data)
+                else:
+                    all_data.append(data)
+        except Exception as e:
+            st.warning(f"⚠️ Error reading {file}: {e}")
+
+    valid_data = [r for r in all_data if r.get("menu") and len(r["menu"]) > 0]
     for r in valid_data:
         r["normalized_cuisine"] = normalize_cuisine(r.get("categories", ""))
         if r.get("location"):
             r["city"] = r["location"].split(",")[0].strip()
         else:
             r["city"] = "Unknown"
+
+    st.success(f"✅ Loaded {len(json_files)} JSON files — {len(valid_data)} valid restaurant entries")
     return valid_data
 
 
@@ -74,8 +88,9 @@ def get_coordinates_from_zip(zip_code):
     return None, None
 
 
-# --- Load data ---
-data = load_json(os.path.join(os.path.dirname(__file__), "berkeley_restaurants_with_vegetarian_labels.json"))
+# --- Load data (folder with all 28 JSONs) ---
+data = load_all_jsons("data_jsons")   # <-- your folder containing the JSONs
+
 # --- Header ---
 st.title("🥗 Veggie Food Finder — Your Personalized Vegetarian Food Map")
 st.markdown("""
@@ -97,7 +112,7 @@ if zip_code:
     else:
         st.sidebar.warning("Could not find that ZIP code.")
 
-# Distance filter (optional)
+# Distance filter
 distance_filter = st.sidebar.selectbox(
     "Show restaurants within:",
     ["All", 5, 10, 20, 50],
@@ -128,7 +143,6 @@ for r in data:
         r_copy = r.copy()
         r_copy["menu"] = dishes
 
-        # Calculate distance if ZIP provided
         if user_lat and user_lon and r.get("latitude") and r.get("longitude"):
             r_copy["distance_miles"] = round(haversine(user_lat, user_lon, r["latitude"], r["longitude"]), 2)
         else:
@@ -219,6 +233,9 @@ else:
         with st.expander("Show Menu Items"):
             dishes = pd.DataFrame(r["menu"])
             if not dishes.empty:
-                dishes_display = dishes[["item_name", "price", "description", "vegetarian_label"]]
-                dishes_display.columns = ["Dish Name", "Price ($)", "Description", "Vegetarian Label"]
+                dishes_display = dishes[["item_name", "price", "description", "vegetarian_label"]].copy()
+                dishes_display["price"] = dishes_display["price"].apply(
+                    lambda x: f"${int(x)}" if pd.notnull(x) and isinstance(x, (int, float)) else x
+                )
+                dishes_display.columns = ["Dish Name", "Price", "Description", "Vegetarian Label"]
                 st.dataframe(dishes_display, use_container_width=True)
