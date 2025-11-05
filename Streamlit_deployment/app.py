@@ -68,7 +68,7 @@ def load_all_jsons(folder_path):
         if r.get("location"):
             r["city"] = r["location"].split(",")[0].strip()
         else:
-            r["city"] = "Unknown"
+            r["city"] = "San Diego"
 
     st.success(f"✅ Loaded {len(json_files)} JSON files — {len(valid_data)} valid restaurant entries")
     return valid_data
