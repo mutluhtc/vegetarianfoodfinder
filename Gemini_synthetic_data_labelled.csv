@@ -1,0 +1,735 @@
+dish_name,dish_description,cuisine,label
+Margherita Pizza,"A classic Neapolitan pizza topped with simple yet flavorful ingredients: fresh tomatoes, mozzarella cheese, fresh basil, and a drizzle of olive oil.",Italian,Vegetarian
+Pasta e Fagioli,"A hearty and comforting soup made with pasta and beans, often featuring a tomato-based broth and various vegetables.",Italian,Vegetarian
+Risotto ai Funghi,"Creamy Italian rice dish cooked with mushrooms, Arborio rice, vegetable broth, Parmesan cheese, and a touch of butter.",Italian,Vegetarian
+Melanzane alla Parmigiana,"A baked dish consisting of layers of fried or baked eggplant slices, tomato sauce, mozzarella, and Parmesan cheese.",Italian,Vegetarian
+Pappa al Pomodoro,"A thick, rustic Tuscan soup made with ripe tomatoes, bread, garlic, basil, and olive oil.",Italian,Vegetarian
+Gnocchi al Pesto,"Soft potato dumplings tossed in a vibrant green sauce made from fresh basil, pine nuts, garlic, Parmesan cheese, and olive oil.",Italian,Vegetarian
+Caprese Salad,"A simple Italian salad made of sliced fresh mozzarella, tomatoes, and sweet basil, seasoned with salt and olive oil.",Italian,Vegetarian
+Focaccia,"A flat oven-baked Italian bread product, similar in style and texture to pizza dough, often topped with herbs and olive oil.",Italian,Vegetarian
+Pasta Primavera,"A light pasta dish featuring a variety of fresh, seasonal vegetables typically tossed in a light sauce with garlic and olive oil.",Italian,Vegetarian
+Minestrone,"A thick soup of Italian origin made with various vegetables, often with pasta or rice, sometimes with beans, and a tomato base.",Italian,Vegetarian
+Tacos al Pastor,"Marinated pork, cooked on a vertical spit and thinly sliced, served in corn tortillas with pineapple, onions, and cilantro.",Mexican,Non-Vegetarian
+Carnitas,"Pork shoulder or butt that has been braised or simmered in oil or lard until very tender, then shredded and often crisped.",Mexican,Non-Vegetarian
+Birria de Chivo,"A traditional goat stew, slow-cooked until incredibly tender in a rich, spicy, and savory broth, often served with tortillas.",Mexican,Non-Vegetarian
+Cochinita Pibil,"A slow-roasted pork dish from the Yucatán Peninsula, marinated in annatto paste and citrus juices, traditionally cooked in a pib (earth oven).",Mexican,Non-Vegetarian
+Mole Poblano,"A complex sauce made from chili peppers, spices, chocolate, and various ingredients, typically served over chicken or turkey.",Mexican,Non-Vegetarian
+Chiles Rellenos,"Poblano peppers stuffed with a savory filling, often ground meat, then battered and fried, and covered in a light tomato sauce.",Mexican,Non-Vegetarian
+Enchiladas Suizas,"Corn tortillas filled with shredded chicken, covered in a creamy green tomatillo sauce, and baked with cheese on top.",Mexican,Non-Vegetarian
+Fajitas,"Grilled strips of marinated meat, typically beef or chicken, served sizzling hot with sautéed onions and bell peppers, accompanied by tortillas and condiments.",Mexican,Non-Vegetarian
+Pozole Rojo,"A hearty traditional soup made with hominy, pork, and a rich red chile broth, garnished with fresh toppings like lettuce, radishes, and lime.",Mexican,Non-Vegetarian
+Barbacoa,"Slow-cooked meat, traditionally lamb or goat, but also beef, prepared in an underground oven until exceptionally tender and flavorful.",Mexican,Non-Vegetarian
+Palak Paneer,A creamy and flavorful Indian curry made with fresh spinach puree and cubes of soft Indian cheese (paneer).,Indian,Vegetarian
+Dal Makhani,"A rich and hearty lentil dish prepared with black lentils and kidney beans, slow-cooked in a creamy, buttery tomato-based sauce.",Indian,Vegetarian
+Chole Bhature,"A popular North Indian dish featuring spicy and tangy chickpea curry (chole) served alongside fluffy, deep-fried leavened bread (bhature).",Indian,Vegetarian
+Aloo Gobi,A comforting dry Indian curry combining tender potatoes (aloo) and cauliflower (gobi) florets cooked with aromatic spices.,Indian,Vegetarian
+Paneer Butter Masala,"A rich and creamy Indian curry with tender cubes of paneer simmered in a luscious tomato, butter, and cashew-based gravy.",Indian,Vegetarian
+Rajma Chawal,A classic North Indian comfort food consisting of a flavorful red kidney bean curry (rajma) typically served with steamed basmati rice (chawal).,Indian,Vegetarian
+Vegetable Biryani,"An aromatic and flavorful one-pot rice dish made with mixed vegetables, basmati rice, and a medley of Indian spices.",Indian,Vegetarian
+Masoor Dal Tadka,"A simple yet delicious yellow lentil preparation, tempered with a sizzling hot oil (tadka) infused with various spices like cumin and garlic.",Indian,Vegetarian
+Baingan Bharta,"A smoky and spicy roasted eggplant mash, cooked with onions, tomatoes, green chilies, and a blend of traditional Indian spices.",Indian,Vegetarian
+Dosa with Sambar and Chutney,"A thin, crispy, savory crepe made from fermented rice and lentil batter, commonly served with a tangy lentil soup (sambar) and coconut chutney.",Indian,Vegetarian
+Pad Krapow Gai,"This is a popular stir-fry dish made with minced chicken, holy basil, and chili, typically served over rice with a fried egg.",Thai,Non-Vegetarian
+Tom Yum Goong,"A vibrant hot and sour soup, Tom Yum Goong is famously made with shrimp, lemongrass, galangal, kaffir lime leaves, and mushrooms.",Thai,Non-Vegetarian
+Massaman Gai,"A rich and relatively mild Thai curry, Massaman Gai features chicken, potatoes, peanuts, and a unique blend of spices, often with coconut milk.",Thai,Non-Vegetarian
+Gaeng Keow Wan Gai,"Known as Thai Green Curry with Chicken, this aromatic dish combines tender chicken pieces with green curry paste, coconut milk, bamboo shoots, and basil.",Thai,Non-Vegetarian
+Pad See Ew Moo,"This savory stir-fried noodle dish consists of wide rice noodles, tender pork, Chinese broccoli, and egg, all coated in a dark soy sauce.",Thai,Non-Vegetarian
+Tom Kha Gai,"A creamy and fragrant coconut milk soup, Tom Kha Gai showcases chicken, galangal, lemongrass, mushrooms, and a touch of chili.",Thai,Non-Vegetarian
+Panang Gai,"Panang Gai is a thicker, richer red curry made with chicken, peanuts, and a hint of lime, offering a balance of sweet, salty, and spicy flavors.",Thai,Non-Vegetarian
+Laab Moo,"A refreshing and spicy minced pork salad, Laab Moo is seasoned with lime juice, fish sauce, herbs, and toasted rice powder, often served with sticky rice.",Thai,Non-Vegetarian
+Pla Pao,"Pla Pao refers to whole grilled fish, typically Tilapia or Snakehead, generously coated in salt and stuffed with lemongrass and kaffir lime leaves.",Thai,Non-Vegetarian
+Gai Tod,"Thai Fried Chicken, or Gai Tod, features marinated chicken pieces deep-fried until crispy and golden brown, commonly served with sticky rice and a dipping sauce.",Thai,Non-Vegetarian
+Stir-fried Bok Choy with Garlic,"Crisp bok choy quickly stir-fried with aromatic garlic and a light savory sauce, offering a simple yet refreshing side dish.",Chinese,Vegetarian
+Dry-fried Green Beans with Szechuan Preserved Vegetables,"Green beans are blistered and stir-fried with fermented vegetables, chili, and garlic for a savory, slightly spicy, and deeply flavorful dish.",Chinese,Vegetarian
+Eggplant with Garlic Sauce (Yu Xiang Qie Zi),"Tender pieces of eggplant are cooked in a rich, tangy, sweet, and spicy garlic sauce, often mimicking the complex flavors of Sichuan cuisine.",Chinese,Vegetarian
+Vegetable Lo Mein,"Soft wheat noodles stir-fried with a colorful assortment of fresh vegetables like carrots, cabbage, and mushrooms, all tossed in a savory soy-based sauce.",Chinese,Vegetarian
+Buddha's Delight (Luohan Zhai),"A traditional Buddhist vegetarian dish combining various vegetables, fungi, and tofu products in a light, savory sauce, symbolizing good fortune.",Chinese,Vegetarian
+Smashed Cucumber Salad with Garlic and Chili,"Refreshing and crunchy smashed cucumbers are tossed in a vibrant dressing of soy sauce, black vinegar, fresh garlic, and chili oil.",Chinese,Vegetarian
+Scallion Pancakes (Cong You Bing),"Flaky, savory, pan-fried flatbreads generously infused with finely chopped scallions, offering a delightful chewy texture and aromatic flavor.",Chinese,Vegetarian
+Mapo Tofu (Vegetarian),"A spicy and savory dish featuring silken tofu cubes bathed in a chili and fermented bean paste sauce, often with a hint of Sichuan peppercorn tingle.",Chinese,Vegetarian
+Stir-fried Mushrooms with Vegetarian 'Oyster' Sauce,"Assorted fresh mushrooms are quickly stir-fried until tender and coated in a rich, savory, and umami-packed vegetarian 'oyster' sauce.",Chinese,Vegetarian
+Vegetarian Hot and Sour Soup,"A classic tangy and spicy soup, thick with shredded mushrooms, bamboo shoots, wood ear fungus, and tofu, balanced with vinegar and white pepper.",Chinese,Vegetarian
+Shawarma,"This popular Middle Eastern dish features thinly sliced marinated meat, often lamb, chicken, or beef, slowly cooked on a vertical rotisserie and typically served in a wrap.",Mediterranean,Non-Vegetarian
+Moussaka,"A classic Greek casserole consisting of layers of seasoned ground meat, often lamb or beef, and sliced eggplant, topped with a creamy béchamel sauce and baked to perfection.",Mediterranean,Non-Vegetarian
+Kofta,"These flavorful ground meat patties or meatballs, typically made from lamb or beef and seasoned with various spices, are often grilled, baked, or simmered in a rich sauce.",Mediterranean,Non-Vegetarian
+Souvlaki,"A beloved Greek street food, Souvlaki consists of small, marinated pieces of meat, commonly pork or chicken, grilled on a skewer and often served in pita bread with tzatziki.",Mediterranean,Non-Vegetarian
+Adana Kebab,"Originating from Turkey, Adana Kebab is a long, hand-minced meat skewer, usually lamb or beef mixed with red pepper flakes, grilled over charcoal for a smoky flavor.",Mediterranean,Non-Vegetarian
+Pastitsio,"This comforting Greek baked pasta dish layers tubular pasta, a rich, spiced ground meat sauce, and a thick, creamy béchamel topping, then bakes until golden.",Mediterranean,Non-Vegetarian
+Chicken Tagine,"A fragrant North African stew, Chicken Tagine features tender chicken pieces slow-cooked with a blend of aromatic spices, vegetables, and often preserved lemons and olives.",Mediterranean,Non-Vegetarian
+Gyros,"A quintessential Greek street food, Gyros features seasoned meat, typically pork or chicken, cooked on a vertical rotisserie, shaved, and served in a pita with tomato, onion, and tzatziki sauce.",Mediterranean,Non-Vegetarian
+Paella (Seafood and Chicken),"This iconic Spanish rice dish is cooked in a wide pan with saffron and features a delightful combination of chicken, various seafood, and vegetables.",Mediterranean,Non-Vegetarian
+Moroccan Harira (with meat),"A hearty and traditional Moroccan soup, Harira often includes tender pieces of lamb or beef along with lentils, chickpeas, tomatoes, and a warming spice blend.",Mediterranean,Non-Vegetarian
+Macaroni and Cheese,"A creamy, baked dish made with elbow macaroni and a rich cheese sauce.",American,Vegetarian
+Vegetable Burger,"A patty made from vegetables, grains, and legumes, served in a bun with various toppings.",American,Vegetarian
+Grilled Cheese Sandwich,A classic comfort food featuring melted cheese between two slices of toasted bread.,American,Vegetarian
+Coleslaw,A salad consisting primarily of finely shredded raw cabbage with a mayonnaise-based or vinaigrette dressing.,American,Vegetarian
+Potato Salad,"A popular side dish made from boiled potatoes, mayonnaise, mustard, and various seasonings and vegetables.",American,Vegetarian
+Corn on the Cob,"Whole ears of corn that have been boiled, steamed, or grilled, often served with butter and salt.",American,Vegetarian
+Baked Beans,"Haricot beans slow-cooked in a sweet and savory tomato-based sauce, often with molasses or brown sugar.",American,Vegetarian
+Pancakes,"Flat, round cakes made from a batter and cooked on a griddle, typically served for breakfast with syrup.",American,Vegetarian
+Garden Salad,"A fresh salad composed of various greens like lettuce, tomatoes, cucumbers, and other raw vegetables, often with a dressing.",American,Vegetarian
+Sweet Potato Casserole,"A comforting side dish made with mashed sweet potatoes, brown sugar, butter, and often topped with marshmallows or pecans.",American,Vegetarian
+Lasagne al Forno,"Layers of pasta, béchamel sauce, rich ragù (meat sauce), and cheese, baked until golden and bubbly.",Italian,Non-Vegetarian
+Ossobuco alla Milanese,"Braised veal shanks cooked with vegetables, white wine, and broth, often garnished with gremolata.",Italian,Non-Vegetarian
+Bistecca alla Fiorentina,"A thick-cut, large T-bone or porterhouse steak, grilled rare and seasoned simply with salt and pepper.",Italian,Non-Vegetarian
+Saltimbocca alla Romana,"Thin slices of veal, topped with prosciutto and sage, pan-fried in white wine and butter.",Italian,Non-Vegetarian
+Pollo alla Cacciatora,"Chicken braised with tomatoes, onions, herbs, often bell peppers and mushrooms, in a savory sauce.",Italian,Non-Vegetarian
+Spaghetti alla Carbonara,"A classic Roman pasta dish made with eggs, hard cheese, cured pork (guanciale or pancetta), and black pepper.",Italian,Non-Vegetarian
+Ravioli di Carne,"Pasta parcels filled with a savory mixture of ground meat, often beef or pork, cheese, and herbs, served with a complementary sauce.",Italian,Non-Vegetarian
+Arancini al Ragù,"Fried rice balls, typically filled with a rich ragù (meat sauce), mozzarella, and peas, then coated in breadcrumbs.",Italian,Non-Vegetarian
+Pizza con Prosciutto e Funghi,"A popular pizza topped with tomato sauce, mozzarella, sliced cooked ham (prosciutto cotto), and mushrooms.",Italian,Non-Vegetarian
+Ragù alla Bolognese,"A rich, slow-cooked meat-based sauce, typically made with ground beef and pork, tomatoes, and vegetables, often served with tagliatelle.",Italian,Non-Vegetarian
+Vegetable Fajitas,"Sizzling grilled bell peppers, onions, and other vegetables, served with tortillas and toppings.",Mexican,Vegetarian
+Mushroom Tacos,"Sautéed mushrooms seasoned with Mexican spices, served in warm tortillas with various salsas.",Mexican,Vegetarian
+Enfrijoladas,"Corn tortillas dipped in a creamy black bean sauce, often filled with cheese or vegetables, and topped with crema and queso fresco.",Mexican,Vegetarian
+Veggie Burrito,"A large flour tortilla filled with rice, beans, cheese, salsa, guacamole, and an assortment of vegetables.",Mexican,Vegetarian
+Quesadillas,"Toasted tortillas filled with melted cheese, often with added ingredients like mushrooms, corn, or squash blossoms.",Mexican,Vegetarian
+Sopa de Tortilla (Vegetarian),"A flavorful tomato-based broth with strips of fried tortillas, avocado, cheese, and sometimes pasilla chili.",Mexican,Vegetarian
+Elote (Street Corn),"Grilled or boiled corn on the cob, slathered with mayonnaise, cotija cheese, chili powder, and lime juice.",Mexican,Vegetarian
+Tostadas with Beans and Avocado,"Crispy fried corn tortillas topped with refried beans, sliced avocado, lettuce, tomato, and crema.",Mexican,Vegetarian
+Nopales Salad,"A refreshing salad made with tender cooked cactus paddles, tomatoes, onions, cilantro, and a lime vinaigrette.",Mexican,Vegetarian
+Butter Chicken,"A classic Indian dish featuring succulent chicken pieces cooked in a rich, creamy, and mildly spiced tomato-based gravy.",Indian,Non-Vegetarian
+Chicken Tikka Masala,"Marinated and grilled chicken pieces (tikka) served in a creamy, spiced tomato sauce, a beloved dish often attributed to British Indian cuisine.",Indian,Non-Vegetarian
+Rogan Josh,"An aromatic Kashmiri curry made with tender pieces of lamb or goat, traditionally colored and flavored with dried Kashmiri chilies and aromatic spices.",Indian,Non-Vegetarian
+Laal Maas,"A fiery Rajasthani mutton curry known for its vibrant red color and intense heat, derived from a generous use of Mathania chilies.",Indian,Non-Vegetarian
+Goan Fish Curry,"A tangy and spicy fish curry from Goa, prepared with coconut milk, kokum, and a blend of aromatic spices, often featuring kingfish or pomfret.",Indian,Non-Vegetarian
+Hyderabadi Biryani,"A fragrant rice dish where marinated meat (chicken or mutton) is layered with basmati rice and cooked 'dum' style, resulting in a flavorful and aromatic meal.",Indian,Non-Vegetarian
+Seekh Kebab,"Spiced minced meat, typically lamb or chicken, pressed onto skewers and grilled, resulting in tender and flavorful kebabs.",Indian,Non-Vegetarian
+Mutton Keema,"A versatile dish made from minced mutton cooked with peas, potatoes, and a blend of aromatic spices, often enjoyed with bread or rice.",Indian,Non-Vegetarian
+Amritsari Fish Fry,"Crispy fried fish marinated in a spiced chickpea flour batter, a popular street food snack from Amritsar, Punjab.",Indian,Non-Vegetarian
+Tandoori Chicken,"Chicken marinated in yogurt and a blend of spices, then traditionally cooked in a tandoor (clay oven) to achieve a smoky flavor and tender texture.",Indian,Non-Vegetarian
+Pad See Ew Tofu,"Flat rice noodles are stir-fried with tofu, Chinese broccoli, and egg in a savory, slightly sweet soy sauce.",Thai,Vegetarian
+Vegetable Green Curry,"This vibrant and aromatic curry combines a spicy green curry paste with coconut milk, assorted vegetables, and tender tofu.",Thai,Vegetarian
+Mango Sticky Rice,"A beloved Thai dessert featuring sweet glutinous rice, fresh ripe mango slices, and a rich coconut milk topping.",Thai,Vegetarian
+Tom Kha Phak (Vegetarian Coconut Soup),"A creamy, fragrant coconut milk soup infused with galangal, lemongrass, lime leaves, mushrooms, and mixed vegetables.",Thai,Vegetarian
+Pad Phak Ruam (Stir-fried Mixed Vegetables),"A healthy and flavorful dish consisting of various fresh vegetables and tofu stir-fried in a light, savory sauce.",Thai,Vegetarian
+Vegetarian Massaman Curry,"A rich and mild curry characterized by its fragrant spices, potatoes, peanuts, onions, and tofu simmered in coconut milk.",Thai,Vegetarian
+Som Tum Thai (Green Papaya Salad - Vegetarian),"A refreshing and spicy salad made from shredded green papaya, carrots, green beans, tomatoes, peanuts, and a tangy lime dressing.",Thai,Vegetarian
+Pad Thai Phak (Vegetarian Pad Thai),"A classic stir-fried noodle dish featuring rice noodles, tofu, bean sprouts, chives, peanuts, and a sweet-sour tamarind sauce.",Thai,Vegetarian
+Tofu Satay,"Skewers of marinated and grilled tofu are served with a rich, creamy peanut sauce and a refreshing cucumber relish.",Thai,Vegetarian
+Khao Phad Phak (Vegetarian Fried Rice),A simple yet delicious dish of jasmine rice stir-fried with a colorful medley of fresh vegetables and tofu.,Thai,Vegetarian
+Kung Pao Chicken,"A classic Szechuan dish featuring diced chicken, peanuts, vegetables, and chili peppers, stir-fried with a savory-spicy sauce.",Chinese,Non-Vegetarian
+Peking Duck,"A famous Beijing dish where roasted duck is served with thin pancakes, hoisin sauce, and spring onions.",Chinese,Non-Vegetarian
+Sweet and Sour Pork,"A popular Cantonese dish consisting of deep-fried pork pieces coated in a tangy, sweet, and savory sauce, often with pineapple and bell peppers.",Chinese,Non-Vegetarian
+Mapo Tofu with Minced Pork,"A fiery Szechuan dish made with silken tofu, minced pork, and a spicy chili-bean sauce, often topped with Szechuan peppercorns.",Chinese,Non-Vegetarian
+Szechuan Beef,"Tender slices of beef stir-fried with various vegetables and a bold, spicy Szechuan sauce.",Chinese,Non-Vegetarian
+General Tso's Chicken,"A popular American Chinese dish featuring deep-fried chicken pieces coated in a sweet, sour, and moderately spicy sauce.",Chinese,Non-Vegetarian
+Char Siu (BBQ Pork),"Cantonese roasted pork marinated in a sweet and savory sauce, known for its glossy, caramelized exterior.",Chinese,Non-Vegetarian
+Crispy Aromatic Duck,"Duck marinated in spices, steamed until tender, then deep-fried until crispy, and often shredded and served with pancakes.",Chinese,Non-Vegetarian
+Beef and Broccoli,A staple Chinese-American dish where tender beef slices are stir-fried with fresh broccoli florets in a savory brown sauce.,Chinese,Non-Vegetarian
+Shrimp Fried Rice,"A comforting dish made with stir-fried rice, shrimp, eggs, and various vegetables like peas and carrots, seasoned with soy sauce.",Chinese,Non-Vegetarian
+Hummus,"A creamy dip made from mashed chickpeas, blended with tahini, olive oil, lemon juice, and garlic, often served with pita bread or vegetables.",Mediterranean,Vegetarian
+Baba Ghanoush,"A smoky and flavorful dip made from roasted eggplant, mashed and mixed with tahini, lemon juice, garlic, and olive oil.",Mediterranean,Vegetarian
+Tabbouleh,"A refreshing salad made from finely chopped parsley, tomatoes, mint, onion, bulgur, and seasoned with olive oil, lemon juice, salt, and pepper.",Mediterranean,Vegetarian
+Fattoush,"A vibrant Lebanese bread salad featuring mixed greens, radishes, tomatoes, cucumbers, and toasted or fried pita bread pieces, dressed with sumac and a lemon-oil vinaigrette.",Mediterranean,Vegetarian
+Spanakopita,"A savory Greek pastry made with layers of crispy phyllo dough filled with a mixture of spinach, feta cheese, onions, and herbs.",Mediterranean,Vegetarian
+Falafel,"Deep-fried patties or balls made from ground chickpeas or fava beans, herbs, and spices, commonly served in pita bread with tahini sauce and vegetables.",Mediterranean,Vegetarian
+Vegetarian Moussaka,"A delightful layered casserole featuring slices of eggplant, potatoes, and a rich tomato-based lentil or vegetable ragu, topped with a creamy béchamel sauce.",Mediterranean,Vegetarian
+Loubia,"A comforting Lebanese green bean stew cooked in a tomato sauce with garlic and onions, perfect served with rice or bread.",Mediterranean,Vegetarian
+Imam Bayildi,"A traditional Turkish dish of whole eggplants stuffed with a savory mixture of onions, garlic, tomatoes, and herbs, then baked until tender.",Mediterranean,Vegetarian
+Gigantes Plaki,"A classic Greek dish of large white beans baked in a rich tomato sauce with herbs like dill and parsley, often served as a mezze.",Mediterranean,Vegetarian
+Hamburger,"A classic American sandwich consisting of a ground beef patty, typically grilled or fried, served in a sliced bun with various toppings.",American,Non-Vegetarian
+Hot Dog,"A popular American street food featuring a cooked sausage, traditionally grilled or steamed, served in the slit of a partially sliced bun.",American,Non-Vegetarian
+Fried Chicken,"A dish consisting of chicken pieces that have been floured or battered and then pan-fried, deep-fried, or pressure-fried until crispy.",American,Non-Vegetarian
+BBQ Ribs,"Slow-cooked pork or beef ribs, often marinated and smothered in a tangy barbecue sauce, then grilled or smoked until tender.",American,Non-Vegetarian
+Meatloaf,"A comfort food dish made from ground meat mixed with other ingredients like breadcrumbs, eggs, and seasonings, formed into a loaf and baked.",American,Non-Vegetarian
+Philly Cheesesteak,"A famous sandwich from Philadelphia, consisting of thinly sliced pieces of beefsteak and melted cheese, often Cheez Whiz, provolone, or American, in a long hoagie roll.",American,Non-Vegetarian
+Buffalo Wings,"Chicken wings deep-fried and coated in a spicy, vinegary sauce, typically served with blue cheese dressing and celery sticks.",American,Non-Vegetarian
+Clam Chowder,"A creamy, hearty soup made with clams, diced potatoes, onions, and often bacon, popular in New England.",American,Non-Vegetarian
+Reuben Sandwich,"A grilled sandwich composed of corned beef, Swiss cheese, sauerkraut, and Russian dressing, grilled between slices of rye bread.",American,Non-Vegetarian
+Chicken Fried Steak,"A breaded cutlet dish prepared by tenderizing a piece of beefsteak, breading it, and then pan-frying or deep-frying it, often served with gravy.",American,Non-Vegetarian
+Pasta al Pomodoro e Basilico,"A simple yet flavorful pasta dish featuring a sauce made from ripe tomatoes, garlic, and fresh basil.",Italian,Vegetarian
+Risotto ai Funghi Porcini,"A creamy rice dish cooked with earthy porcini mushrooms, vegetable broth, and Parmesan cheese.",Italian,Vegetarian
+Parmigiana di Melanzane,"Layers of fried eggplant baked with savory tomato sauce, mozzarella, basil, and Parmesan cheese.",Italian,Vegetarian
+Focaccia con Rosmarino,"A flat oven-baked Italian bread, often flavored with fragrant rosemary, olive oil, and coarse sea salt, ideal as a side or snack.",Italian,Vegetarian
+Insalata Caprese,"A simple and refreshing salad of sliced fresh mozzarella, ripe tomatoes, and sweet basil leaves, seasoned with salt and olive oil.",Italian,Vegetarian
+Carciofi alla Romana,"Roman-style artichokes braised until tender in white wine, olive oil, garlic, and fresh mint, a delicious seasonal starter.",Italian,Vegetarian
+Chiles Rellenos (with meat),"Roasted poblano peppers stuffed with ground beef or pork, sometimes mixed with cheese, then battered and fried, served in a mild tomato sauce.",Mexican,Non-Vegetarian
+Fajitas (beef/chicken),"Strips of grilled beef or chicken, bell peppers, and onions, served sizzling hot on a skillet with warm tortillas and various toppings.",Mexican,Non-Vegetarian
+Pescado a la Veracruzana,"A classic Mexican fish dish featuring a whole fish, often red snapper, baked or pan-fried with a sauce of tomatoes, olives, capers, and herbs.",Mexican,Non-Vegetarian
+Sopa de Albóndigas,"A hearty Mexican meatball soup made with savory meatballs, vegetables like carrots and zucchini, and a light tomato-based broth.",Mexican,Non-Vegetarian
+Machaca con Huevo,"A popular breakfast dish consisting of dried, shredded beef (machaca) rehydrated and cooked with scrambled eggs, often served with tortillas.",Mexican,Non-Vegetarian
+Undhiyu,"A traditional Gujarati mixed vegetable casserole, slow-cooked with various winter vegetables, fenugreek dumplings (muthias), and aromatic spices.",Indian,Vegetarian
+Pad See Ew,"Pad See Ew features stir-fried wide rice noodles with Chinese broccoli, egg, and a choice of meat, typically chicken or pork, in a dark soy sauce.",Thai,Non-Vegetarian
+Green Curry (Gaeng Keow Wan Gai),"This fragrant Thai curry combines coconut milk, green curry paste, chicken, bamboo shoots, and basil leaves for a mildly spicy and sweet dish.",Thai,Non-Vegetarian
+Massaman Curry (Gaeng Massaman),"Massaman Curry is a rich, relatively mild, and slightly sweet curry with influences from Persian cuisine, typically made with beef or chicken and potatoes.",Thai,Non-Vegetarian
+Panang Curry (Gaeng Panang),"Panang Curry is a thick, creamy, and often less spicy red curry, commonly prepared with chicken or pork and kaffir lime leaves.",Thai,Non-Vegetarian
+Pad Kra Pao (Basil Chicken/Pork),"Pad Kra Pao is a popular stir-fry dish featuring ground meat (chicken or pork) with holy basil, chilies, and garlic, usually served with rice and a fried egg.",Thai,Non-Vegetarian
+Satay (Gai/Moo Satay),"Satay consists of grilled skewers of marinated chicken or pork, served with a rich peanut sauce and a refreshing cucumber relish.",Thai,Non-Vegetarian
+Laab (Larb),"Laab is a spicy and sour salad made from minced meat (chicken, pork, or beef) mixed with herbs, lime juice, fish sauce, and toasted ground rice.",Thai,Non-Vegetarian
+Tod Mun Pla (Thai Fish Cakes),"Tod Mun Pla are deep-fried fish cakes made from fresh fish paste mixed with red curry paste, long beans, and kaffir lime leaves, served with a sweet chili dipping sauce.",Thai,Non-Vegetarian
+Khao Man Gai (Hainanese Chicken Rice),"Khao Man Gai features poached chicken served over fragrant rice cooked in chicken broth, accompanied by a spicy ginger-garlic dipping sauce.",Thai,Non-Vegetarian
+Dry-fried Green Beans (Gan Bian Si Ji Dou),"Green beans are wok-fried until blistered and slightly wrinkled, then tossed with savory seasonings and often pickled mustard greens.",Chinese,Vegetarian
+Eggplant in Garlic Sauce (Yu Xiang Qie Zi),"Tender pieces of eggplant are stir-fried in a luscious, balanced sauce that is sweet, sour, and spicy with a prominent garlic flavor.",Chinese,Vegetarian
+Vegetable Spring Rolls (Chun Juan),"Crispy fried rolls filled with a delicious medley of shredded cabbage, carrots, mushrooms, and other finely chopped vegetables.",Chinese,Vegetarian
+Vegetarian Fried Rice (Su Chao Fan),"A comforting and versatile dish featuring cooked rice stir-fried with an assortment of colorful vegetables like peas, carrots, corn, and often tofu.",Chinese,Vegetarian
+Sichuan Cold Noodles (Liang Mian) with Peanuts,"Chewy wheat noodles are tossed in a refreshing, spicy, tangy, and nutty sauce, typically garnished with cucumber, bean sprouts, and crushed peanuts.",Chinese,Vegetarian
+Hot and Sour Soup (Vegetarian),"A warming and flavorful soup balancing tartness from vinegar with spiciness from white pepper, filled with mushrooms, bamboo shoots, and tofu.",Chinese,Vegetarian
+Moussaka (with meat),"A layered dish featuring seasoned ground meat, often lamb or beef, eggplant, and a creamy béchamel sauce, baked until golden.",Mediterranean,Non-Vegetarian
+Moroccan Tagine (Chicken),"A slow-cooked stew made with chicken, vegetables, and aromatic spices, traditionally cooked in an earthenware pot.",Mediterranean,Non-Vegetarian
+Lamb Kleftiko,"Slow-cooked lamb on the bone, marinated with garlic, lemon, and herbs, traditionally baked in a sealed parchment parcel.",Mediterranean,Non-Vegetarian
+Vegetarian Chili,"A hearty stew made with various beans, vegetables, tomatoes, and spices, often served with toppings like cheese or sour cream.",American,Vegetarian
+Veggie Burger,"A patty that does not contain meat, usually made from plant-based ingredients like beans, grains, and vegetables, served in a bun.",American,Vegetarian
+Tomato Soup,"A creamy or brothy soup made primarily from tomatoes, often seasoned and served with a grilled cheese sandwich.",American,Vegetarian
+Apple Pie,"A classic American dessert consisting of a pastry crust filled with sliced apples, typically spiced with cinnamon and nutmeg.",American,Vegetarian
+Ossobuco,"Braised veal shanks cooked with vegetables, white wine, and broth, often garnished with gremolata.",Italian,Non-Vegetarian
+Saltimbocca,"Thin slices of veal, topped with prosciutto and sage, pan-fried in white wine and butter.",Italian,Non-Vegetarian
+Agnolotti del Plin,"Small, pinched pasta pockets typically filled with roasted meats and served with a simple butter and sage sauce or meat drippings.",Italian,Non-Vegetarian
+Cotoletta alla Milanese,"A breaded and pan-fried veal cutlet, traditionally cooked in clarified butter.",Italian,Non-Vegetarian
+Salsiccia e Friarielli,"A Neapolitan dish featuring savory Italian sausage cooked with bitter broccoli rabe, often served as a main or on pizza.",Italian,Non-Vegetarian
+Vegetarian Tacos,"These versatile tacos are filled with a delicious assortment of grilled vegetables, black beans, and fresh toppings.",Mexican,Vegetarian
+Mushroom Quesadillas,"Warm tortillas are filled with savory sautéed mushrooms and melted cheese, then grilled until golden and crispy.",Mexican,Vegetarian
+Enchiladas Verdes (Vegetarian),"Corn tortillas are rolled with cheese or beans, then generously coated in a tangy green tomatillo sauce and baked.",Mexican,Vegetarian
+Esquites,"A popular street snack, esquites consists of sweet corn kernels sautéed with chili, lime, and epazote, often served with a dollop of mayo and cheese.",Mexican,Vegetarian
+Nopal Tacos,"These unique tacos showcase tender, grilled cactus paddles seasoned with spices and fresh herbs, offering a distinctive flavor.",Mexican,Vegetarian
+Huevos Rancheros,"A classic Mexican breakfast, this dish features fried eggs served on tortillas, generously topped with a vibrant salsa roja.",Mexican,Vegetarian
+Potato and Soy Chorizo Tacos,"Hearty and flavorful, these tacos are filled with seasoned diced potatoes and spicy plant-based soy chorizo.",Mexican,Vegetarian
+Mutton Biryani,A celebratory dish where tender mutton pieces are slow-cooked with aromatic basmati rice and a blend of spices.,Indian,Non-Vegetarian
+Chicken Korma,"A mild yet rich and creamy chicken curry, often prepared with yogurt, nuts, and a delicate blend of spices.",Indian,Non-Vegetarian
+Galouti Kebab,"Melt-in-your-mouth lamb kebabs from Lucknow, renowned for their extremely tender texture and aromatic spices, often served with a hint of smoky flavour.",Indian,Non-Vegetarian
+Keema Matar,A flavorful North Indian dish made with minced meat (usually lamb or goat) cooked with green peas and a medley of aromatic spices.,Indian,Non-Vegetarian
+Tofu Pad Thai,"Classic stir-fried rice noodles with tofu, bean sprouts, peanuts, and lime in a tangy tamarind sauce.",Thai,Vegetarian
+Massaman Curry with Vegetables,"A mild and rich curry with coconut milk, potatoes, onions, peanuts, and a blend of spices, featuring mixed vegetables.",Thai,Vegetarian
+Tom Yum Hed (Mushroom Tom Yum),"A spicy and sour clear soup featuring mushrooms, lemongrass, galangal, kaffir lime leaves, and chili.",Thai,Vegetarian
+Som Tum Thai (Papaya Salad) without fish sauce,"A vibrant and refreshing salad made with shredded green papaya, carrots, green beans, tomatoes, peanuts, chili, and a dressing sans fish sauce.",Thai,Vegetarian
+Pineapple Fried Rice with Tofu,"Fragrant jasmine rice stir-fried with chunks of pineapple, tofu, cashews, raisins, and a hint of curry powder, often served in a pineapple shell.",Thai,Vegetarian
+Pad Pak Ruam Mitr (Stir-fried Mixed Vegetables),A simple yet delicious dish of various seasonal vegetables stir-fried quickly in a light soy-based sauce.,Thai,Vegetarian
+Panang Curry with Tofu,"A rich and creamy red curry, slightly less spicy than green curry, made with coconut milk, kaffir lime leaves, and tofu.",Thai,Vegetarian
+Larb Hed (Mushroom Larb),"A flavorful and spicy 'salad' made with finely chopped mushrooms, toasted rice powder, mint, cilantro, and a tangy lime dressing.",Thai,Vegetarian
+Sichuan Boiled Beef (Shui Zhu Niu Rou),A fiery Sichuan dish consisting of tender beef slices poached in a spicy broth laden with chili oil and Sichuan peppercorns.,Chinese,Non-Vegetarian
+Salt and Pepper Shrimp,"Crispy fried shrimp seasoned with a flavorful mixture of salt, ground pepper, and sometimes chili flakes and garlic.",Chinese,Non-Vegetarian
+Dan Dan Noodles with Minced Pork,"A classic Sichuan noodle dish featuring wheat noodles topped with a spicy sauce, preserved vegetables, chili oil, and savory minced pork.",Chinese,Non-Vegetarian
+Twice-Cooked Pork (Hui Guo Rou),"A popular Sichuan dish where pork belly is first boiled, then sliced and stir-fried with vegetables and a spicy bean paste.",Chinese,Non-Vegetarian
+Greek Salad (Horiatiki Salata),"A classic salad featuring tomatoes, cucumbers, red onion, Kalamata olives, and feta cheese, dressed with olive oil and oregano.",Mediterranean,Vegetarian
+Dolmades (Vegetarian),"Grape leaves carefully stuffed with seasoned rice and herbs, typically cooked in olive oil and lemon juice.",Mediterranean,Vegetarian
+Fattoush Salad,"A Lebanese bread salad with mixed greens, vegetables, and toasted or fried pita pieces, dressed with a tangy sumac vinaigrette.",Mediterranean,Vegetarian
+Fakes (Lentil Soup),"A hearty and nutritious Greek lentil soup made with brown lentils, vegetables like carrots and celery, and olive oil.",Mediterranean,Vegetarian
+New England Clam Chowder,"A thick, creamy soup made with clams, potatoes, onions, and often salted pork or bacon.",American,Non-Vegetarian
+Roast Turkey Dinner,"A traditional holiday meal featuring a whole roasted turkey, typically served with stuffing, gravy, and cranberry sauce.",American,Non-Vegetarian
+Pizza Margherita,"A classic Neapolitan pizza topped with simple yet flavorful ingredients: fresh tomatoes, mozzarella cheese, fresh basil, and a drizzle of olive oil.",Italian,Vegetarian
+Spaghetti Aglio e Olio,"A simple and quick pasta dish made by sautéing garlic in olive oil, sometimes with red pepper flakes, and tossing it with spaghetti.",Italian,Vegetarian
+Spinach and Ricotta Ravioli,"Pasta pockets filled with a flavorful mixture of creamy ricotta cheese and fresh spinach, often served with a simple butter and sage sauce or tomato sauce.",Italian,Vegetarian
+Mole Poblano with Chicken,"A rich, complex sauce made with chiles, spices, nuts, and a touch of chocolate, commonly served over chicken or turkey.",Mexican,Non-Vegetarian
+Enchiladas Rojas (with chicken/beef),"Corn tortillas rolled around a filling of chicken or beef, covered in a red chili sauce, and often topped with cheese and cream.",Mexican,Non-Vegetarian
+Alambre,"A dish featuring grilled beef or pork, bacon, bell peppers, onions, cheese, and sometimes pineapple, typically served with tortillas.",Mexican,Non-Vegetarian
+Carne Asada,"Thinly sliced, marinated grilled beef, often served as a main dish or in tacos and burritos.",Mexican,Non-Vegetarian
+Matar Paneer,A delightful North Indian curry consisting of green peas (matar) and paneer (Indian cottage cheese) cubes cooked in a spiced tomato-based gravy.,Indian,Vegetarian
+Pad See Ew with Beef,"Flat rice noodles stir-fried with tender beef, Chinese broccoli, and egg in a savory dark soy sauce.",Thai,Non-Vegetarian
+Gaeng Keow Wan Gai (Green Curry Chicken),"A vibrant and creamy green curry with chicken, bamboo shoots, and Thai basil simmered in rich coconut milk.",Thai,Non-Vegetarian
+Pad Krapow Moo (Basil Pork),"Minced pork is stir-fried with aromatic holy basil, fresh chilies, and garlic, often served with a fried egg.",Thai,Non-Vegetarian
+Massaman Curry with Beef,"A rich, mild, and slightly sweet curry with tender beef, potatoes, peanuts, and coconut milk, boasting a unique spice blend.",Thai,Non-Vegetarian
+Khao Pad (Fried Rice with Chicken),"Classic Thai fried rice prepared with jasmine rice, chicken, egg, and mixed vegetables, seasoned to perfection.",Thai,Non-Vegetarian
+Panang Curry with Pork,"A thick, red, and relatively mild curry made with tender slices of pork, kaffir lime leaves, and creamy coconut milk.",Thai,Non-Vegetarian
+Satay Gai (Chicken Satay),Skewered and grilled marinated chicken pieces are served with a rich peanut sauce and a refreshing cucumber relish.,Thai,Non-Vegetarian
+Larb Gai (Minced Chicken Salad),"A refreshing and spicy salad made with minced chicken, toasted ground rice, fresh herbs, and a zesty lime dressing.",Thai,Non-Vegetarian
+Gaeng Phet Gai (Red Curry Chicken),"A fiery red curry featuring chicken, bamboo shoots, and Thai basil, all simmered in a robust coconut milk base.",Thai,Non-Vegetarian
+Stir-fried Napa Cabbage with Glass Noodles,"Tender Napa cabbage and slippery glass noodles are stir-fried with garlic, soy sauce, and a hint of sesame oil for a comforting side dish.",Chinese,Vegetarian
+Dry-fried Green Beans with Garlic,"Fresh green beans are blistered in a hot wok, then tossed with fragrant minced garlic and a savory soy-based sauce until tender-crisp.",Chinese,Vegetarian
+Vegetable Spring Rolls,"Crispy fried rolls filled with a medley of finely shredded vegetables like cabbage, carrots, and mushrooms, served with a dipping sauce.",Chinese,Vegetarian
+Garlic Eggplant,"Tender pieces of eggplant are stir-fried until soft and then coated in a rich, savory garlic sauce with a touch of sweetness.",Chinese,Vegetarian
+Sautéed Bok Choy with Garlic,"Fresh bok choy is quickly sautéed with fragrant garlic in a light sauce, preserving its crisp texture and mild flavor.",Chinese,Vegetarian
+Stir-fried Mushrooms with Snow Peas,"An elegant dish combining earthy mushrooms and vibrant, crisp snow peas in a light, savory stir-fry sauce.",Chinese,Vegetarian
+Sichuan Boiled Tofu (Shui Zhu Dou Fu),"Silken tofu slices are gently poached in a fiery, numbing Sichuan chili oil broth filled with bean sprouts and other aromatics.",Chinese,Vegetarian
+Eight Treasure Rice Pudding (Ba Bao Fan),"A sweet and celebratory dish made with glutinous rice layered with various dried fruits, nuts, and red bean paste, often served during festivals.",Chinese,Vegetarian
+Gyro,"Gyro is a Greek dish made from meat, typically pork, chicken, or lamb, cooked on a vertical rotisserie and served in pita bread with various toppings.",Mediterranean,Non-Vegetarian
+Moroccan Lamb Tagine,"Moroccan Lamb Tagine is a slow-cooked stew prepared in an earthenware pot, often featuring tender lamb, dried fruits, and aromatic spices.",Mediterranean,Non-Vegetarian
+Dolmades (with meat),"Dolmades with meat are grape leaves stuffed with a savory mixture of ground meat, rice, and herbs, then simmered in a flavorful broth.",Mediterranean,Non-Vegetarian
+Chicken Marbella,"Chicken Marbella is a classic dish where chicken pieces are marinated with prunes, olives, capers, garlic, and white wine, then baked until tender.",Mediterranean,Non-Vegetarian
+Black Bean Burgers,"Savory patties made primarily from black beans, breadcrumbs, and spices, served on a bun with toppings like a traditional burger.",American,Vegetarian
+Cornbread,"A popular quick bread made from cornmeal, often slightly sweet or savory, and traditionally served with chili or barbecue.",American,Vegetarian
+Vegetarian Pizza,"A popular dish consisting of a baked dough base topped with tomato sauce, mozzarella cheese, and a variety of vegetarian toppings like bell peppers, onions, mushrooms, and olives.",American,Vegetarian
+Carbonara,"A Roman pasta dish made with eggs, hard cheese (Pecorino Romano), cured pork (guanciale or pancetta), and black pepper.",Italian,Non-Vegetarian
+Spaghetti alle Vongole,"A simple yet flavorful pasta dish featuring spaghetti tossed with fresh clams, garlic, olive oil, and sometimes white wine.",Italian,Non-Vegetarian
+Arancini (with ragù),"Deep-fried, crispy rice balls typically filled with a savory meat ragù, mozzarella, and peas.",Italian,Non-Vegetarian
+Calabacitas con Elote,"A simple and delicious side dish or main consisting of sautéed zucchini, corn kernels, onion, and often a touch of cream or cheese.",Mexican,Vegetarian
+Huaraches de Nopal,"Oval-shaped masa tortillas (huaraches) topped with grilled cactus paddles (nopal), refried beans, salsa, cheese, and onions.",Mexican,Vegetarian
+Potato Flautas,"Crispy rolled tacos filled with seasoned mashed potatoes, deep-fried, and served with lettuce, salsa, and crema.",Mexican,Vegetarian
+Black Bean and Corn Salsa Tostadas,"Crispy fried tortillas topped with refried black beans, a vibrant salsa made from corn, black beans, red onion, cilantro, and lime, often with avocado.",Mexican,Vegetarian
+Hyderabadi Chicken Biryani,"A fragrant rice dish where marinated chicken is layered with basmati rice and cooked on dum, resulting in a flavorful one-pot meal.",Indian,Non-Vegetarian
+Mutton Korma,"A rich and creamy Mughal-inspired curry with tender pieces of mutton cooked in a mild, yogurt-based gravy with nuts and spices.",Indian,Non-Vegetarian
+Keema Pav,"A popular street food dish featuring spicy minced meat (keema) curry served with soft, buttered pav (bread rolls).",Indian,Non-Vegetarian
+Shami Kebab,"Minced meat patties (often lamb or beef) mixed with ground chickpeas and spices, shallow-fried until golden brown and crispy.",Indian,Non-Vegetarian
+Pad See Ew (Vegetarian),"This popular stir-fried noodle dish features wide rice noodles, gai lan (Chinese broccoli), and your choice of plant-based protein, all tossed in a savory soy-based sauce.",Thai,Vegetarian
+Pad Thai (Vegetarian),"A classic Thai stir-fried noodle dish made with rice noodles, tofu, bean sprouts, peanuts, and a tangy tamarind-based sauce.",Thai,Vegetarian
+Tom Yum Hed (Vegetarian Tom Yum),"A flavorful hot and sour soup, this vegetarian version is packed with mushrooms, lemongrass, galangal, kaffir lime leaves, and a touch of chili.",Thai,Vegetarian
+Gaeng Keow Wan Pak (Vegetarian Green Curry),"A vibrant and aromatic green curry with coconut milk, various vegetables like bamboo shoots and eggplant, and often tofu or mushrooms.",Thai,Vegetarian
+Gaeng Massaman Pak (Vegetarian Massaman Curry),"A rich and creamy curry featuring potatoes, peanuts, onions, and your choice of plant-based protein in a mild, subtly sweet coconut milk broth.",Thai,Vegetarian
+Gaeng Panang Pak (Vegetarian Panang Curry),"A milder, thicker red curry made with coconut milk, various vegetables, and often tofu, offering a slightly sweet and nutty flavor profile.",Thai,Vegetarian
+Khao Pad Pak (Vegetarian Fried Rice),"A simple yet satisfying dish of jasmine rice stir-fried with mixed vegetables, tofu, and a light soy sauce seasoning.",Thai,Vegetarian
+Som Tum Thai Jae (Vegetarian Green Papaya Salad),"A refreshing and spicy salad made with shredded green papaya, carrots, peanuts, green beans, and a dressing free of fish sauce.",Thai,Vegetarian
+Pad Pak Ruam Mit (Stir-fried Mixed Vegetables),"A healthy and quick stir-fry combining a variety of fresh vegetables like broccoli, carrots, and bell peppers in a light savory sauce.",Thai,Vegetarian
+Beef with Broccoli,Tender slices of beef and fresh broccoli florets stir-fried in a savory brown sauce.,Chinese,Non-Vegetarian
+Chow Mein (Chicken),Stir-fried noodles with shredded chicken and mixed vegetables in a savory sauce.,Chinese,Non-Vegetarian
+Salt and Pepper Prawns,"Crispy deep-fried prawns seasoned with a savory mix of salt, pepper, garlic, and sometimes chili.",Chinese,Non-Vegetarian
+Greek Salad,"A classic salad featuring tomatoes, cucumbers, red onion, Kalamata olives, and feta cheese, dressed with olive oil and oregano.",Mediterranean,Vegetarian
+Lentil Soup,"A hearty and nutritious soup made with red or brown lentils, often flavored with vegetables like carrots, celery, and onions, and aromatic spices.",Mediterranean,Vegetarian
+Muhammara,"A spicy dip made from roasted red peppers, walnuts, breadcrumbs, olive oil, and pomegranate molasses, offering a complex sweet and savory flavor.",Mediterranean,Vegetarian
+Dolmades,"Grape leaves traditionally stuffed with a mixture of rice, herbs like dill and mint, and sometimes pine nuts, then cooked until tender.",Mediterranean,Vegetarian
+Sloppy Joe,"A sandwich consisting of ground beef or pork, onions, tomato sauce or ketchup, Worcestershire sauce, and other seasonings, served on a hamburger bun.",American,Non-Vegetarian
+Mushroom Risotto,"A creamy Northern Italian rice dish cooked with broth, sautéed mushrooms, onion, garlic, and Parmesan cheese.",Italian,Vegetarian
+Eggplant Parmesan,"Layers of fried or baked eggplant slices, tomato sauce, mozzarella, and Parmesan cheese, baked until bubbly and golden.",Italian,Vegetarian
+Minestrone Soup,"A thick Italian vegetable soup, often with pasta or rice, made with a variety of seasonal vegetables and a tomato-based broth.",Italian,Vegetarian
+Focaccia with Rosemary and Sea Salt,"A flat oven-baked Italian bread, often topped with rosemary, sea salt, and olive oil, perfect as an appetizer or side.",Italian,Vegetarian
+Zucchini Fritters (Frittelle di Zucchine),"Crispy and savory fritters made from grated zucchini, flour, eggs, and herbs, fried until golden brown.",Italian,Vegetarian
+Birria,"Birria is a rich and spicy stew, traditionally made with goat or beef, often served with tortillas as tacos or in its own flavorful broth.",Mexican,Non-Vegetarian
+Enchiladas Rojas de Pollo,"Enchiladas Rojas de Pollo consist of corn tortillas filled with shredded chicken, rolled, and covered in a savory red chili sauce, often topped with cheese and cream.",Mexican,Non-Vegetarian
+Chiles Rellenos con Carne,"Chiles Rellenos con Carne are roasted poblano peppers stuffed with ground meat, often mixed with spices and sometimes cheese, then battered and fried.",Mexican,Non-Vegetarian
+Masoor Dal,"A simple yet comforting lentil dish made from red lentils, tempered with basic Indian spices like cumin, mustard seeds, and curry leaves.",Indian,Vegetarian
+Dhokla,"A popular Gujarati snack that is soft, spongy, and savory, made from fermented rice and chickpea flour batter, steamed and tempered with mustard seeds and curry leaves.",Indian,Vegetarian
+Pad See Ew with Chicken,"A popular stir-fried noodle dish featuring wide rice noodles, tender chicken, Chinese broccoli, and a savory-sweet soy sauce.",Thai,Non-Vegetarian
+Green Curry with Chicken (Gaeng Keow Wan Gai),"A rich and fragrant Thai curry made with vibrant green chilies, creamy coconut milk, tender chicken pieces, bamboo shoots, and aromatic Thai basil.",Thai,Non-Vegetarian
+Massaman Curry with Beef (Gaeng Massaman Neua),"A mild, rich, and slightly sweet curry with Persian influences, typically featuring tender beef, potatoes, and roasted peanuts.",Thai,Non-Vegetarian
+Pad Kra Pao Moo (Pork Basil Stir-fry),"A quick and incredibly flavorful stir-fry of ground pork with holy basil, garlic, and chilies, often served over rice with a fried egg.",Thai,Non-Vegetarian
+Red Curry with Duck (Gaeng Phet Ped Yang),"A vibrant and spicy red curry featuring succulent roasted duck, sweet pineapple chunks, cherry tomatoes, and fresh basil leaves in coconut milk.",Thai,Non-Vegetarian
+Laab Moo (Spicy Minced Pork Salad),"A refreshing and zesty Northeastern Thai salad of minced pork seasoned with toasted rice powder, fresh mint, cilantro, and a tangy lime dressing.",Thai,Non-Vegetarian
+Panang Curry with Pork (Gaeng Panang Moo),"A thick, milder, and sweeter curry than red curry, often made with tender pork, creamy coconut milk, and finely sliced kaffir lime leaves.",Thai,Non-Vegetarian
+Tom Kha Gai (Chicken Coconut Soup),"A mild and creamy chicken soup made with rich coconut milk, aromatic galangal, lemongrass, mushrooms, and a delightful hint of lime.",Thai,Non-Vegetarian
+Vegetarian Mapo Tofu,"Soft silken tofu simmered in a rich, spicy, and numbing chili bean paste sauce, adapted to be meat-free.",Chinese,Vegetarian
+Garlic Bok Choy,"Fresh bok choy quickly stir-fried with fragrant garlic, offering a simple and healthy green side dish.",Chinese,Vegetarian
+Dry-Fried Green Beans,"Crispy green beans blistered and stir-fried with preserved vegetables, chili, and garlic until tender-crisp.",Chinese,Vegetarian
+Eggplant with Garlic Sauce,"Tender pieces of eggplant cooked in a savory, aromatic, and slightly sweet garlic-infused sauce.",Chinese,Vegetarian
+Buddha's Delight,"A traditional vegetarian stir-fry featuring a variety of vegetables, tofu, and vermicelli in a light, savory sauce.",Chinese,Vegetarian
+Vegetarian Dan Dan Noodles,"Springy wheat noodles served in a vibrant, spicy, and nutty sauce, typically topped with pickled vegetables and a plant-based mince.",Chinese,Vegetarian
+Chive Pancakes,"Flavorful pan-fried pancakes filled with a savory mixture of fresh garlic chives, glass noodles, and sometimes scrambled egg.",Chinese,Vegetarian
+Moussaka (Meat),"A classic layered casserole featuring spiced ground lamb or beef, eggplant, and a creamy béchamel sauce, baked to perfection.",Mediterranean,Non-Vegetarian
+Kofta Kebabs,"Flavorful skewers of spiced ground lamb or beef, mixed with herbs and onions, then grilled until tender and juicy.",Mediterranean,Non-Vegetarian
+Chicken Souvlaki,Marinated chunks of chicken threaded onto skewers and grilled to create a popular and delicious Greek dish.,Mediterranean,Non-Vegetarian
+Lamb Tagine,"A fragrant Moroccan stew made with tender lamb, aromatic spices, dried fruits, and vegetables, slow-cooked in a traditional earthenware pot.",Mediterranean,Non-Vegetarian
+Chicken Shawarma,"Marinated chicken stacked and slow-roasted on a vertical spit, then thinly shaved and served, often in a wrap or with rice.",Mediterranean,Non-Vegetarian
+Pastitsio (Meat),"A hearty Greek baked pasta dish featuring layers of ground beef or lamb, tubular pasta, and a rich béchamel sauce.",Mediterranean,Non-Vegetarian
+Grilled Octopus,"Tender octopus marinated with olive oil, lemon, and herbs, then grilled to achieve a smoky and succulent texture.",Mediterranean,Non-Vegetarian
+Moroccan Kefta Meatballs,"Spiced ground meat meatballs, often lamb or beef, typically simmered in a rich tomato sauce and served as a main dish.",Mediterranean,Non-Vegetarian
+Spanakopita with Meat,"While traditionally vegetarian, a hearty version includes spiced ground meat, often lamb or beef, layered with spinach and feta in crispy phyllo pastry.",Mediterranean,Non-Vegetarian
+Black Bean Burger,"A flavorful patty made primarily from black beans and spices, typically served on a bun with toppings.",American,Vegetarian
+Green Bean Casserole,A traditional holiday side dish featuring green beans baked in a creamy mushroom sauce and topped with crispy fried onions.,American,Vegetarian
+Sweet Potato Fries,"Strips of sweet potato, deep-fried or baked until crispy, offering a sweeter alternative to regular fries.",American,Vegetarian
+Costolette alla Milanese,"Similar to Wiener Schnitzel, this dish features breaded and pan-fried veal cutlets, typically bone-in.",Italian,Non-Vegetarian
+Vitello Tonnato,"A Piedmontese classic, this dish presents thinly sliced cold roasted veal covered with a creamy, mayonnaise-like sauce that has been flavored with tuna.",Italian,Non-Vegetarian
+Ragu alla Bolognese,"A slow-cooked meat-based sauce, typically served with tagliatelle, made from ground beef, pancetta, vegetables, wine, and milk.",Italian,Non-Vegetarian
+Arrosto di Maiale,"A simple yet delicious roasted pork loin, often seasoned with herbs like rosemary and garlic, creating a flavorful and tender main course.",Italian,Non-Vegetarian
+Agnello Scottadito,"These are grilled lamb chops, traditionally from central Italy, served hot enough to burn your fingers ('scottadito' means 'burns fingers').",Italian,Non-Vegetarian
+Poblano Rajas,"Strips of roasted poblano peppers sautéed with onions and corn, often mixed with cream or cheese.",Mexican,Vegetarian
+Potato and Cheese Gorditas,"Thick corn tortillas filled with a savory mixture of mashed potatoes and cheese, then fried or griddled.",Mexican,Vegetarian
+Prawn Malai Curry,"Prawn Malai Curry is a mild and creamy Bengali curry made with prawns, coconut milk, and a delicate balance of spices, offering a rich and comforting flavor.",Indian,Non-Vegetarian
+Vegetable Pad Thai,"Thailand's most famous noodle dish, stir-fried with rice noodles, vegetables, peanuts, and a sweet-savory tamarind sauce.",Thai,Vegetarian
+Tom Kha Phak (Vegetable Galangal Soup),"A creamy coconut milk soup infused with galangal, lemongrass, mushrooms, and mixed vegetables, offering a delicate balance of flavors.",Thai,Vegetarian
+Som Tum Thai (Vegetarian Green Papaya Salad),"A refreshing and spicy salad made with shredded green papaya, carrots, tomatoes, peanuts, and a vibrant lime dressing, prepared without fish sauce.",Thai,Vegetarian
+Khao Pad Phak (Vegetable Fried Rice),"A classic Thai fried rice dish made with jasmine rice, mixed vegetables like peas and carrots, and a light soy sauce seasoning, often served with a slice of lime.",Thai,Vegetarian
+Chicken Chow Mein,"A classic stir-fried noodle dish featuring tender chicken pieces, crisp vegetables, and savory noodles.",Chinese,Non-Vegetarian
+Mapo Tofu (with minced meat),"A spicy and numbing dish featuring soft tofu set in a chili and bean-based sauce, often with minced pork or beef.",Chinese,Non-Vegetarian
+Lentil Soup (Mercimek Corbasi),"A hearty and flavorful Turkish soup made from red lentils, often seasoned with mint and paprika.",Mediterranean,Vegetarian
+Melitzanosalata,"A simple Greek eggplant dip, often featuring roasted eggplant, garlic, red wine vinegar, and olive oil.",Mediterranean,Vegetarian
+Chili Con Carne,"A spicy stew containing chili powder, tomatoes, beans, and often ground beef, slow-cooked for rich flavor.",American,Non-Vegetarian
+Turkey Dinner,"A traditional American meal featuring a roasted whole turkey, often served with stuffing, mashed potatoes, gravy, and cranberry sauce.",American,Non-Vegetarian
+Eggplant Parmigiana,"Layers of fried or baked eggplant slices, rich tomato sauce, mozzarella, and Parmesan cheese baked until golden and bubbly.",Italian,Vegetarian
+Gnocchi with Pesto,"Soft potato dumplings served with a vibrant sauce made from fresh basil, pine nuts, garlic, Parmesan, and olive oil.",Italian,Vegetarian
+Vegetable Lasagna,"Layers of pasta, rich tomato sauce, various seasonal vegetables like zucchini and spinach, and creamy béchamel or ricotta cheese.",Italian,Vegetarian
+Chile Relleno con Carne,"A roasted poblano pepper stuffed with ground meat and/or cheese, then battered and fried, served with a mild red sauce.",Mexican,Non-Vegetarian
+Mole Poblano con Pollo,"A rich, complex sauce made from a variety of chiles, spices, nuts, and chocolate, often served over chicken or turkey.",Mexican,Non-Vegetarian
+Malai Kofta,"Soft, creamy koftas (dumplings) made from paneer and potatoes, served in a rich, mild, and slightly sweet cashew-based gravy.",Indian,Vegetarian
+Pad Kra Pao,"A popular stir-fry dish featuring ground meat (often pork or chicken) with holy basil, garlic, chilies, and served over rice.",Thai,Non-Vegetarian
+Panang Curry,"A thick, savory, and slightly sweet curry with a prominent peanut flavor, typically made with sliced meat (often beef or chicken) and served with a sprinkle of kaffir lime leaves.",Thai,Non-Vegetarian
+Massaman Curry,"A mild, rich, and slightly sweet curry with influences from Persian cuisine, typically made with beef or chicken, potatoes, and peanuts.",Thai,Non-Vegetarian
+Kai Med Ma Muang,"A delightful stir-fry dish consisting of tender chicken pieces, crunchy cashew nuts, onions, bell peppers, and a savory sauce.",Thai,Non-Vegetarian
+Larb Moo,"A spicy and savory salad made with finely minced pork, toasted ground rice, fresh herbs like mint and cilantro, and a zingy lime dressing.",Thai,Non-Vegetarian
+Khao Man Gai,"A comforting dish featuring poached chicken served with fragrant rice cooked in chicken broth, accompanied by a flavorful ginger-garlic sauce.",Thai,Non-Vegetarian
+Dry-fried Green Beans,"Green beans blistered and stir-fried with a savory sauce, often including preserved vegetables.",Chinese,Vegetarian
+Stir-fried Noodles with Mixed Vegetables,Chewy egg or wheat noodles stir-fried with an assortment of colorful vegetables and a savory sauce.,Chinese,Vegetarian
+Sichuan Style Spicy Cucumbers,"Crisp cucumber slices tossed in a fiery and fragrant dressing made with chili oil, garlic, and vinegar.",Chinese,Vegetarian
+Mushroom and Bamboo Shoot Stir-fry,A delightful combination of various mushrooms and tender bamboo shoots stir-fried in a light sauce.,Chinese,Vegetarian
+Scallion Pancakes,"Flaky, savory flatbreads studded with fresh green scallions, often pan-fried until golden brown.",Chinese,Vegetarian
+Seafood Paella,"A Spanish rice dish cooked in a wide, shallow pan, often featuring a variety of seafood like shrimp, mussels, and calamari, along with saffron.",Mediterranean,Non-Vegetarian
+Tavuk Sis,"Marinated chicken pieces skewered and grilled to perfection, a popular and flavorful Turkish dish.",Mediterranean,Non-Vegetarian
+Loaded Baked Potato,"A large baked potato topped with butter, sour cream, cheese, chives, and often other vegetarian additions like broccoli or chili.",American,Vegetarian
+Huaraches de Nopales,"An elongated masa base topped with tender grilled nopales (cactus paddles), refried beans, cheese, and a fresh salsa, resembling a sandal.",Mexican,Vegetarian
+Tostadas de Frijoles,"Crispy fried corn tortillas generously spread with refried beans and topped with crisp lettuce, fresh cheese, and vibrant salsa.",Mexican,Vegetarian
+Tamales de Rajas con Queso,"Steamed masa dough, encased in corn husks, filled with strips of roasted poblano peppers (rajas) and melted cheese for a comforting and savory experience.",Mexican,Vegetarian
+ esquites,"A popular street food featuring warm corn kernels mixed with mayonnaise, cotija cheese, chili powder, and a squeeze of lime juice.",Mexican,Vegetarian
+Amritsari Machhi,"A crispy, spicy, and tangy deep-fried fish dish from Amritsar, often made with sole or basa, coated in a chickpea flour batter.",Indian,Non-Vegetarian
+Nihari,"A slow-cooked stew consisting of tender meat, mainly beef or lamb shank, along with bone marrow, often served for breakfast.",Indian,Non-Vegetarian
+Kolhapuri Mutton Sukka,"A dry mutton preparation from Kolhapur, known for its intense spices and rich, robust flavor.",Indian,Non-Vegetarian
+Vegetarian Pad See Ew,"Thick rice noodles are stir-fried with Chinese broccoli, tofu, and a savory dark soy sauce.",Thai,Vegetarian
+Vegetarian Tom Yum Soup,"A classic spicy and sour soup featuring mushrooms, galangal, lemongrass, and kaffir lime leaves.",Thai,Vegetarian
+Vegetarian Green Curry,"A fragrant and creamy curry made with coconut milk, green chilies, bamboo shoots, Thai eggplant, and tofu.",Thai,Vegetarian
+Vegetarian Pad Kra Pao,"Stir-fried holy basil with tofu, green beans, and a spicy savory sauce, often served over rice.",Thai,Vegetarian
+Vegetarian Red Curry,"A vibrant and spicy curry featuring red chilies, coconut milk, bamboo shoots, bell peppers, and tofu.",Thai,Vegetarian
+Vegetarian Panang Curry,"A thicker, sweeter, and milder curry than red or green, with kaffir lime leaves, coconut milk, and tofu.",Thai,Vegetarian
+Sichuan Dan Dan Noodles,"A classic Szechuan street food featuring noodles topped with a spicy sauce, chili oil, pickled vegetables, and often flavorful minced pork.",Chinese,Non-Vegetarian
+Mongolian Beef,"A stir-fried beef dish usually made with flank steak and scallions in a savory, slightly sweet brown sauce.",Chinese,Non-Vegetarian
+Char Siu,"Cantonese roasted pork seasoned with honey, five-spice powder, and soy sauce, known for its glossy, reddish exterior and tender meat.",Chinese,Non-Vegetarian
+Shrimp with Lobster Sauce,"A popular Cantonese-American dish featuring stir-fried shrimp in a thick, savory sauce often made with fermented black beans, ground pork, and egg.",Chinese,Non-Vegetarian
+Fakes (Greek Lentil Soup),"A robust and nutritious traditional Greek lentil soup made with brown lentils, carrots, celery, garlic, and a touch of red wine vinegar.",Mediterranean,Vegetarian
+Za'atar Manakish,"A popular Levantine flatbread topped with a mixture of za'atar spice blend (thyme, sumac, sesame seeds), olive oil, and often served for breakfast or as a snack.",Mediterranean,Vegetarian
+Chicken Pot Pie,"A savory pie filled with a creamy mixture of chicken and vegetables, such as peas and carrots, all topped with a flaky pastry crust.",American,Non-Vegetarian
+Pasta alla Norma,"A traditional Sicilian pasta dish featuring macaroni with fried eggplant, salted ricotta cheese, and a fresh tomato and basil sauce.",Italian,Vegetarian
+Barbacoa de Borrego,"Lamb meat slow-cooked in a pit oven, often wrapped in maguey leaves, resulting in exceptionally tender, smoky, and juicy meat.",Mexican,Non-Vegetarian
+Enchiladas Suizas (with chicken),"Corn tortillas filled with shredded chicken, covered in a creamy green tomatillo sauce, melted cheese, and often topped with sour cream.",Mexican,Non-Vegetarian
+Pescado Zarandeado,"A grilled whole fish, typically snapper or red snapper, butterflied and marinated in a savory sauce, then cooked over an open flame.",Mexican,Non-Vegetarian
+Fajitas (with beef or chicken),"Strips of grilled beef or chicken, along with sliced bell peppers and onions, served sizzling on a hot skillet with warm tortillas and various toppings.",Mexican,Non-Vegetarian
+Pad Krapow Moo Saap,"A popular stir-fried dish consisting of ground pork or chicken with holy basil, chilies, garlic, and often served with a fried egg over rice.",Thai,Non-Vegetarian
+Kai Jeow,"A simple yet delicious Thai-style omelet, often made with a splash of fish sauce and served over rice, sometimes with ground pork.",Thai,Non-Vegetarian
+Gai Pad Med Mamuang Himmapan,"A sweet and savory stir-fried chicken with cashew nuts, onions, bell peppers, and often dried chilies.",Thai,Non-Vegetarian
+Vegetable Fried Rice,"A beloved classic, this dish combines fluffy rice stir-fried with an assortment of colorful vegetables like carrots, peas, corn, and sometimes scrambled egg.",Chinese,Vegetarian
+Sichuan Dan Dan Noodles (Vegetarian),"These flavorful noodles are coated in a rich, spicy, and nutty sauce, often topped with pickled vegetables and a savory vegetarian mince.",Chinese,Vegetarian
+Gong Bao Tofu,"Cubes of pan-fried tofu are stir-fried with roasted peanuts, dried chilies, and Sichuan peppercorns in a signature sweet, sour, and spicy sauce.",Chinese,Vegetarian
+Vegetarian Spring Rolls,"Crispy, golden-fried wrappers encase a delicious filling of finely shredded cabbage, carrots, mushrooms, and other mixed vegetables.",Chinese,Vegetarian
+Lamb Kofta,"Spiced ground lamb, often shaped into meatballs or patties, grilled or baked to perfection.",Mediterranean,Non-Vegetarian
+Pork Souvlaki,"Small pieces of marinated pork skewered and grilled, a popular Greek fast food.",Mediterranean,Non-Vegetarian
+Beef Gyros,"Slices of seasoned beef cooked on a vertical rotisserie, commonly served in pita bread with tzatziki sauce.",Mediterranean,Non-Vegetarian
+Meat Dolmades,"Grape leaves stuffed with a flavorful mixture of rice, herbs, and minced ground meat, then simmered until tender.",Mediterranean,Non-Vegetarian
+Tavuk Şiş,"Marinated chicken pieces skewered and grilled, a classic Turkish chicken shish kebab.",Mediterranean,Non-Vegetarian
+Garden Burger,"A patty made from plant-based ingredients like vegetables, grains, and legumes, served in a bun with various toppings.",American,Vegetarian
+Mashed Potatoes,"Potatoes boiled until tender, then mashed with butter, milk or cream, salt, and pepper to a smooth consistency.",American,Vegetarian
+Arrosticini,"These are small skewers of lamb meat, typically from the Abruzzo region, grilled over an open flame until tender and slightly charred.",Italian,Non-Vegetarian
+Coniglio alla Cacciatora,"Similar to chicken cacciatora, this dish features rabbit braised with aromatic vegetables, herbs, and wine, resulting in a rich and savory stew.",Italian,Non-Vegetarian
+Quesadillas de Huitlacoche,"Griddled corn tortillas filled with melted cheese and the earthy, mushroom-like corn fungus known as huitlacoche.",Mexican,Vegetarian
+Nopalitos Salad,"A refreshing salad made from tender cooked cactus paddles (nopalitos), diced tomatoes, onions, cilantro, and a tangy lime dressing.",Mexican,Vegetarian
+Bean and Cheese Burritos,"A classic hearty burrito filled with creamy refried beans and melted cheese, wrapped in a warm flour tortilla.",Mexican,Vegetarian
+Tostadas de Aguacate,"Crispy fried corn tortillas topped with a generous layer of mashed avocado, fresh pico de gallo, and a sprinkle of cotija cheese or cilantro.",Mexican,Vegetarian
+Vegetarian Tom Kha Soup,"A creamy and mildly spicy coconut milk soup, infused with galangal, lemongrass, and mushrooms, offering a delightful balance of flavors.",Thai,Vegetarian
+Vegetarian Pad Thai,"Thailand's signature stir-fried rice noodle dish, made vegetarian with tofu, bean sprouts, peanuts, and a tamarind-based sauce.",Thai,Vegetarian
+Fresh Spring Rolls with Peanut Sauce,"Delicate rice paper rolls filled with fresh vegetables, herbs, and sometimes tofu, served with a rich and savory peanut dipping sauce.",Thai,Vegetarian
+Vegetable Stir-fry with Cashew Nuts,"A flavorful and crunchy stir-fry featuring a medley of fresh vegetables, roasted cashew nuts, and a savory sauce.",Thai,Vegetarian
+Spanakopita (Vegetarian),"A savory Greek pastry made with flaky phyllo dough encasing a rich filling of spinach, feta cheese, onions, and various herbs.",Mediterranean,Vegetarian
+Shakshuka,"A hearty and flavorful dish featuring eggs gently poached in a simmering sauce of tomatoes, chili peppers, and onions, often spiced with cumin and paprika.",Mediterranean,Vegetarian
+Mediterranean Lentil Soup,"A comforting and nutritious soup made with red or brown lentils, vegetables like carrots and celery, and aromatic Mediterranean spices.",Mediterranean,Vegetarian
+Roasted Mediterranean Vegetables,"A delicious medley of seasonal vegetables such as bell peppers, zucchini, eggplant, and red onions, roasted until tender with olive oil, garlic, and herbs.",Mediterranean,Vegetarian
+Steak,"A thick slice of high-quality beef, often grilled or pan-seared to perfection, a staple in American steakhouses.",American,Non-Vegetarian
+Pulled Pork Sandwich,"Slow-smoked pork shoulder shredded and mixed with barbecue sauce, served in a bun.",American,Non-Vegetarian
+Gnocchi al Pesto Genovese,"Soft potato dumplings served with a vibrant and aromatic basil pesto sauce made from basil, pine nuts, garlic, Parmesan, and olive oil.",Italian,Vegetarian
+Enchiladas Rojas,"Corn tortillas filled with chicken or beef, rolled, and covered in a savory red chili sauce, often topped with cheese and cream.",Mexican,Non-Vegetarian
+Sopa de Tortilla con Pollo,"A flavorful chicken broth-based soup with shredded chicken, crispy fried tortilla strips, avocado, cheese, and sometimes a dollop of sour cream.",Mexican,Non-Vegetarian
+Masala Dosa,"A thin, crispy South Indian crepe made from fermented rice and lentil batter, typically stuffed with a spiced potato filling.",Indian,Vegetarian
+Shahi Paneer,"A rich and indulgent North Indian curry with paneer cubes simmered in a creamy, mildly sweet gravy made from nuts, cream, and tomatoes.",Indian,Vegetarian
+Vegetable Korma,"A mild and creamy curry with mixed vegetables cooked in a rich, subtly spiced gravy made from yogurt, cream, and ground nuts or coconut milk.",Indian,Vegetarian
+Pad Thai,"Pad Thai is a popular stir-fried rice noodle dish commonly made with shrimp or chicken, eggs, peanuts, and bean sprouts.",Thai,Non-Vegetarian
+Massaman Curry (Beef),"Massaman Curry is a rich, relatively mild, and slightly sweet curry with beef, potatoes, and peanuts, often considered a fusion of Thai and Indian flavors.",Thai,Non-Vegetarian
+Pad Krapow Moo Saap (Basil Pork),"Pad Krapow Moo Saap features stir-fried minced pork with holy basil, garlic, and chilies, typically served over rice with a fried egg.",Thai,Non-Vegetarian
+Khao Pad (Fried Rice),"Khao Pad is a classic Thai fried rice dish, often prepared with choice of chicken, pork, or shrimp, eggs, onions, and sometimes served with cucumber slices.",Thai,Non-Vegetarian
+Panang Gai (Chicken Panang Curry),"Panang Gai is a thick, rich, and creamy red curry with chicken, distinct for its use of kaffir lime leaves and slightly milder, sweeter flavor than other curries.",Thai,Non-Vegetarian
+Laab Moo (Minced Pork Salad),"Laab Moo is a vibrant and spicy minced pork salad seasoned with lime juice, fish sauce, ground roasted rice, fresh mint, and chilies.",Thai,Non-Vegetarian
+Scrambled Eggs with Tomatoes (Xi Hong Shi Chao Dan),A simple yet comforting dish of fluffy scrambled eggs combined with ripe tomato wedges in a light sauce.,Chinese,Vegetarian
+Sichuan Cold Noodles (Liang Mian),"Chewy noodles tossed in a spicy, nutty, and savory sauce with cucumber and other fresh toppings.",Chinese,Vegetarian
+Stir-fried Mushrooms with Savory Sauce,"Assorted mushrooms stir-fried with a savory, umami-rich sauce.",Chinese,Vegetarian
+Kofta Kebab,"Spiced ground lamb or beef formed into meatballs or elongated patties, grilled or baked, and served with various Mediterranean accompaniments.",Mediterranean,Non-Vegetarian
+Shish Tawook,"Popular Middle Eastern marinated chicken skewers, grilled to perfection and bursting with flavors of yogurt, lemon, garlic, and various spices.",Mediterranean,Non-Vegetarian
+Vegetable Pot Pie,"A savory pie filled with a creamy medley of mixed vegetables like peas, carrots, and potatoes, topped with a flaky pastry crust.",American,Vegetarian
+Fried Green Tomatoes,"A Southern specialty featuring unripe green tomatoes sliced, breaded, and pan-fried until golden brown and tender-crisp.",American,Vegetarian
+Lasagna al Forno,"Layers of pasta, rich Bolognese meat sauce, béchamel, and cheese, baked until bubbly and golden.",Italian,Non-Vegetarian
+Osso Buco,"Braised veal shanks cooked with vegetables, white wine, and broth, often garnished with gremolata.",Italian,Non-Vegetarian
+Salsicce e Friarielli,"Italian sausages pan-fried and served with sautéed broccoli rabe, a classic dish from Naples.",Italian,Non-Vegetarian
+Spaghetti Carbonara,"A Roman pasta dish made with eggs, hard cheese, cured pork (guanciale), and black pepper.",Italian,Non-Vegetarian
+Spezzatino di Manzo,"A hearty Italian beef stew, slow-cooked with vegetables like carrots, potatoes, and peas in a rich tomato-based sauce.",Italian,Non-Vegetarian
+Vegetarian Enchiladas,"Corn tortillas filled with cheese, beans, and vegetables, rolled, and covered in a rich chili sauce and more cheese.",Mexican,Vegetarian
+Sopa de Tortilla,"A comforting tomato-based broth with crispy tortilla strips, avocado, and cheese, served hot.",Mexican,Vegetarian
+Black Bean Tostadas,"Crispy fried corn tortillas topped with refried black beans, lettuce, tomato, and a sprinkle of cheese.",Mexican,Vegetarian
+Corn and Poblano Tamales,"Steamed masa dough filled with a savory mixture of corn kernels and roasted poblano peppers, offering a unique flavor.",Mexican,Vegetarian
+Gosht Nihari,"A slow-cooked, rich and spicy meat stew, traditionally made with beef or lamb, known for its tender texture and complex flavors.",Indian,Non-Vegetarian
+Fish Curry (Kerala Style),"A tangy and spicy fish curry made with coconut milk, kokum, and a blend of South Indian spices, often featuring a specific type of fish.",Indian,Non-Vegetarian
+Hyderabadi Haleem,"A rich and savory stew made of meat (usually mutton or beef), lentils, and wheat, slow-cooked to a paste-like consistency, especially popular during Ramadan.",Indian,Non-Vegetarian
+Chicken Chettinad,"A fiery and aromatic chicken dish from the Chettinad region of Tamil Nadu, known for its bold flavors from freshly ground spices.",Indian,Non-Vegetarian
+Green Curry with Tofu,"A fragrant and spicy Thai curry made with green chili paste, coconut milk, bamboo shoots, Thai eggplant, and basil, served with tofu and mixed vegetables.",Thai,Vegetarian
+Tom Kha Gai (Vegetarian),"A creamy and aromatic coconut soup infused with galangal, lemongrass, kaffir lime leaves, mushrooms, and a squeeze of lime juice, made without chicken.",Thai,Vegetarian
+Pad Phuk Tong (Stir-fried Pumpkin),"A simple yet delicious stir-fry featuring tender pumpkin pieces, garlic, and a savory sauce, often with added egg or tofu for protein.",Thai,Vegetarian
+Som Tum (Vegetarian Green Papaya Salad),"A refreshing and spicy salad made from shredded green papaya, carrots, green beans, tomatoes, peanuts, and a dressing of lime juice, chili, and palm sugar, made without fish sauce or shrimp.",Thai,Vegetarian
+Vegetarian Fried Rice,"Classic Thai fried rice made with jasmine rice, mixed vegetables, onions, and a light soy sauce, often including tofu or egg.",Thai,Vegetarian
+Stir-fried Beef with Broccoli,A classic and healthy Chinese-American dish featuring tender slices of beef and crisp broccoli florets stir-fried in a savory brown sauce.,Chinese,Non-Vegetarian
+Cantonese Roast Duck,"Similar to Peking Duck, this dish focuses on the rich, savory flavor of the duck meat, commonly served with a sweet plum sauce.",Chinese,Non-Vegetarian
+Zucchini Fritters (Kolokithokeftedes),"Crispy Greek fritters made from grated zucchini, feta cheese, herbs, and spices, pan-fried until golden.",Mediterranean,Vegetarian
+Lentil Soup (Fakes Soupa),"A nutritious and comforting Greek lentil soup made with brown lentils, vegetables like carrots and celery, and a touch of red wine vinegar.",Mediterranean,Vegetarian
+Corn Dog,A sausage on a stick coated in a thick layer of cornmeal batter and deep-fried until golden brown.,American,Non-Vegetarian
+Enchiladas Suizas de Pollo,"Corn tortillas filled with shredded chicken are covered in a creamy green tomatillo sauce, topped with melted cheese, and often served with sour cream.",Mexican,Non-Vegetarian
+Fajitas de Carne Asada,"Strips of grilled marinated beef are served sizzling hot with sautéed bell peppers and onions, typically accompanied by warm tortillas and various toppings.",Mexican,Non-Vegetarian
+Pozole Rojo con Cerdo,"A hearty and traditional Mexican soup made with hominy corn and tender chunks of pork, all simmered in a flavorful red chili broth.",Mexican,Non-Vegetarian
+Idli Sambar,"A popular South Indian breakfast consisting of soft, fluffy steamed rice cakes (idli) served with a savory, tangy lentil and vegetable stew (sambar).",Indian,Vegetarian
+Gai Yang,"Classic Thai grilled chicken, marinated in a flavorful blend of spices and herbs, then char-grilled to perfection and often served with sticky rice.",Thai,Non-Vegetarian
+Khao Soi Gai,"A creamy and savory Northern Thai coconut curry noodle soup with chicken, featuring both soft and crispy egg noodles.",Thai,Non-Vegetarian
+Sichuan Shredded Potatoes,"Thinly shredded potatoes are stir-fried with chilies, Sichuan peppercorns, and vinegar, creating a delightfully crisp and spicy dish.",Chinese,Vegetarian
+Scrambled Eggs with Tomatoes,"A comforting and simple home-style dish where fluffy scrambled eggs are cooked with ripe tomatoes in a light, savory sauce.",Chinese,Vegetarian
+General Tso's Tofu,"Crispy fried tofu pieces are coated in a sweet, savory, and slightly spicy sauce, offering a vegetarian take on a classic.",Chinese,Vegetarian
+Chicken Tagine with Olives and Preserved Lemon,"A fragrant Moroccan dish where chicken pieces are slow-cooked with briny olives, tangy preserved lemons, and a blend of aromatic spices.",Mediterranean,Non-Vegetarian
+Paella Valenciana,"A traditional Spanish rice dish cooked in a wide, shallow pan, typically featuring chicken, rabbit, and sometimes seafood, along with saffron and vegetables.",Mediterranean,Non-Vegetarian
+Baked Potatoes,"Large potatoes baked until tender and fluffy, often served with toppings like sour cream, chives, or cheese.",American,Vegetarian
+Waffles,"Batter-based cakes cooked in a waffle iron, characterized by their distinctive grid pattern and often served with sweet toppings.",American,Vegetarian
+Costolette di Agnello Scottadito,"Grilled lamb chops, often marinated with herbs and garlic, traditionally served hot enough to burn the fingers.",Italian,Non-Vegetarian
+Vegetarian Tacos al Pastor,"Marinated mushrooms or seitan grilled with pineapple, served in tortillas with cilantro and onion.",Mexican,Vegetarian
+Mushroom Fajitas,"Sliced mushrooms and bell peppers seasoned and grilled, served sizzling with warm tortillas and toppings.",Mexican,Vegetarian
+Vegetarian Burrito Bowl,"A hearty bowl with rice, beans, roasted vegetables, salsa, guacamole, and a squeeze of lime.",Mexican,Vegetarian
+Tostadas de Nopales,"Crispy fried tortillas topped with tender cooked cactus paddles, beans, queso fresco, and salsa.",Mexican,Vegetarian
+Esquites (Street Corn Salad),"A delicious cup of sautéed corn kernels mixed with mayonnaise, chili powder, lime juice, and cheese.",Mexican,Vegetarian
+Potato and Chorizo Tacos (Vegetarian),Tacos filled with a flavorful mixture of diced potatoes and plant-based chorizo.,Mexican,Vegetarian
+Prawn Masala,Succulent prawns cooked in a rich and spicy onion-tomato gravy.,Indian,Non-Vegetarian
+Tom Kha Phak,"A creamy and aromatic coconut soup with mushrooms, galangal, lemongrass, and lime juice.",Thai,Vegetarian
+Gaeng Keow Wan Phak,"A vibrant and spicy green curry made with coconut milk, assorted vegetables, and Thai basil.",Thai,Vegetarian
+Pad Phak Ruam Mit,A simple yet delicious stir-fried mixed vegetable dish often seasoned with oyster sauce substitute or soy sauce.,Thai,Vegetarian
+Yam Woon Sen,"A refreshing glass noodle salad tossed with mixed vegetables, peanuts, and a tangy lime dressing.",Thai,Vegetarian
+Pad Med Ma Muang Himmapan,A savory stir-fry featuring crispy tofu or mixed vegetables with cashew nuts and a light sauce.,Thai,Vegetarian
+Massaman Curry with Tofu,"A rich and mild curry with a blend of aromatic spices, coconut milk, potatoes, onions, and peanuts.",Thai,Vegetarian
+Pad Kee Mao (Drunken Noodles),"Spicy stir-fried wide rice noodles with fresh chilies, holy basil, and mixed vegetables.",Thai,Vegetarian
+Tod Mun Khao Pod,Delicious deep-fried corn cakes seasoned with red curry paste and kaffir lime leaves.,Thai,Vegetarian
+Som Tum Phak,"A spicy and tangy salad made with shredded green papaya or mixed vegetables, peanuts, and a chili-lime dressing.",Thai,Vegetarian
+Twice Cooked Pork (Hui Guo Rou),"A classic Sichuan dish where pork belly is first boiled, then sliced and stir-fried with vegetables and a savory, spicy sauce.",Chinese,Non-Vegetarian
+Cantonese Roast Goose,"A whole goose roasted until its skin is crispy and the meat is tender and juicy, often served with a plum dipping sauce.",Chinese,Non-Vegetarian
+Greek Salad (Horiatiki),"A classic salad combining ripe tomatoes, cucumbers, red onion, Kalamata olives, and a block of feta cheese, drizzled with olive oil and oregano.",Mediterranean,Vegetarian
+Briam,"A rustic Greek baked vegetable dish featuring a medley of potatoes, zucchini, eggplant, bell peppers, and tomatoes, slow-roasted with olive oil and herbs.",Mediterranean,Vegetarian
+Ribollita,"A robust Tuscan bread and vegetable soup, typically including cannellini beans, cabbage, kale, and other seasonal vegetables.",Italian,Vegetarian
+Fajitas (Beef/Chicken),"Sizzling strips of grilled beef or chicken served with sautéed onions and bell peppers, accompanied by warm tortillas and various toppings.",Mexican,Non-Vegetarian
+Mole Poblano (with chicken),"A complex and aromatic sauce made from chilies, spices, nuts, and chocolate, traditionally served over tender chicken pieces.",Mexican,Non-Vegetarian
+Pozole Rojo (with pork),"A hearty, savory soup made with hominy and tender chunks of pork, stewed in a rich red chili broth and garnished with fresh toppings.",Mexican,Non-Vegetarian
+Tofu with Mixed Vegetables,"Cubes of firm tofu stir-fried with a colorful assortment of fresh vegetables like bell peppers, carrots, and snow peas in a light, savory sauce.",Chinese,Vegetarian
+Tomato Soup with Grilled Cheese Dippers,Creamy tomato soup often paired with strips of grilled cheese for dipping.,American,Vegetarian
+Polpette,"Classic Italian meatballs, usually made with ground beef or a mix of meats, herbs, and breadcrumbs, often served in tomato sauce.",Italian,Non-Vegetarian
+Porchetta,"A savory, fatty, and moist boneless pork roast that is typically slow-roasted with herbs and spices.",Italian,Non-Vegetarian
+Salsiccia,"Traditional Italian pork sausage, seasoned with various spices, commonly grilled, fried, or used in pasta dishes.",Italian,Non-Vegetarian
+Poblano and Corn Rajas,"Strips of roasted poblano peppers and sweet corn kernels sautéed with onions, often creamy, making a delicious filling or side dish.",Mexican,Vegetarian
+Black Bean Burritos,"Large flour tortillas generously filled with seasoned black beans, rice, cheese, salsa, and often other fresh vegetables.",Mexican,Vegetarian
+Pad Krapow Tofu,"Tofu stir-fried with holy basil, green beans, and a spicy garlic-chili sauce, typically served over rice.",Thai,Vegetarian
+Massaman Curry with Vegetables and Tofu,"A mild, rich, and slightly sweet curry stewed with potatoes, peanuts, and mixed vegetables in coconut milk.",Thai,Vegetarian
+Som Tum Jay (Vegetarian Green Papaya Salad),"A refreshing and spicy salad made from shredded green papaya, carrots, green beans, tomatoes, peanuts, and a lime-chili dressing, without fish sauce.",Thai,Vegetarian
+Panaeng Tofu Curry,"A thick, creamy, and slightly sweet red curry with tofu, bell peppers, and kaffir lime leaves.",Thai,Vegetarian
+Tao Hoo Tod (Fried Tofu),Crispy deep-fried tofu triangles served with a sweet and sour peanut dipping sauce.,Thai,Vegetarian
+Gaeng Phet Pak (Vegetarian Red Curry),"A vibrant and spicy red curry made with coconut milk, various vegetables, and often bamboo shoots or eggplant.",Thai,Vegetarian
+Char Siu (Chinese BBQ Pork),"Cantonese roasted pork seasoned with honey, five-spice powder, and soy sauce, resulting in a sweet and savory glaze.",Chinese,Non-Vegetarian
+Egg Drop Soup with Chicken,"A comforting and light Chinese soup made with whisked eggs slowly drizzled into hot chicken broth, often with shredded chicken and corn.",Chinese,Non-Vegetarian
+Spanakopita (Spinach Pie),"A savory pastry made with layers of crispy phyllo dough filled with a mixture of spinach, feta cheese, onions, and herbs.",Mediterranean,Vegetarian
+Lentil Soup (Fakes),"A hearty and nutritious Greek soup made with brown lentils, vegetables like carrots and celery, and seasoned with olive oil and red wine vinegar.",Mediterranean,Vegetarian
+Artichoke Risotto,"A creamy rice dish cooked with tender artichoke hearts, broth, and finished with Parmesan cheese.",Italian,Vegetarian
+Enchiladas,"Corn tortillas rolled around a filling, often shredded chicken or beef, covered with a chili sauce and baked.",Mexican,Non-Vegetarian
+Chana Masala,A delicious and tangy North Indian curry made with chickpeas cooked in a spicy onion-tomato gravy.,Indian,Vegetarian
+Bhindi Masala,"A simple and flavorful Indian stir-fry made with okra (bhindi), onions, tomatoes, and a blend of spices.",Indian,Vegetarian
+Sambar,"A South Indian lentil-based vegetable stew, cooked with a tamarind broth and a special blend of spices.",Indian,Vegetarian
+Massaman Curry Gai,"Massaman Curry Gai is a rich, mild, and slightly sweet curry made with coconut milk, chicken, potatoes, peanuts, and a unique blend of spices.",Thai,Non-Vegetarian
+Gaeng Phet Gai,"Gaeng Phet Gai is a spicy red curry with coconut milk, chicken, bamboo shoots, and basil leaves, offering a bold and fragrant experience.",Thai,Non-Vegetarian
+Larb Gai,"Larb Gai is a refreshing and spicy minced chicken salad from Northern Thailand, seasoned with fish sauce, lime juice, ground roasted rice, mint, and chili.",Thai,Non-Vegetarian
+Gaeng Som Pla,"Gaeng Som Pla is a pungent and sour fish curry, typically made without coconut milk, featuring fish and mixed vegetables in a spicy, tangy broth.",Thai,Non-Vegetarian
+Mapo Tofu,"A classic Sichuan dish featuring soft tofu cubes simmered in a spicy, numbing, and savory sauce, made vegetarian by omitting ground meat.",Chinese,Vegetarian
+Salt and Pepper Tofu,"Crispy fried tofu cubes seasoned with aromatic salt and pepper, often garnished with scallions and chili for extra flavor.",Chinese,Vegetarian
+Stir-fried Mushrooms with Oyster Sauce (Vegetarian),"An assortment of fresh mushrooms stir-fried to perfection in a rich, umami-packed vegetarian oyster sauce.",Chinese,Vegetarian
+Moussaka with Meat,"This iconic Greek dish features layers of tender eggplant, spiced minced lamb or beef, and a rich, creamy béchamel sauce, baked to golden perfection.",Mediterranean,Non-Vegetarian
+Shish Taouk,"This popular Middle Eastern dish consists of succulent cubes of chicken marinated in yogurt, lemon juice, garlic, and spices, then grilled on skewers.",Mediterranean,Non-Vegetarian
+Moroccan Tagine with Lamb/Chicken,"This aromatic slow-cooked stew combines tender pieces of lamb or chicken with vegetables, fruits, and fragrant Moroccan spices, all simmered in a traditional conical pot.",Mediterranean,Non-Vegetarian
+Spetsofai,"A rustic Greek dish from Pelion, Spetsofai is a hearty stew of country sausages, often spicy, cooked with peppers and onions in a rich tomato sauce.",Mediterranean,Non-Vegetarian
+Avgolemono Soup,"A classic Greek comfort food, this creamy and tangy soup is made with chicken broth, rice, shredded chicken, and a signature liaison of egg and lemon.",Mediterranean,Non-Vegetarian
+Baked Potato,"A whole potato baked until its interior is fluffy, commonly served with toppings such as sour cream, chives, and cheese.",American,Vegetarian
+Coda alla Vaccinara,"A traditional Roman oxtail stew braised slowly with vegetables, tomatoes, and herbs until the meat is falling off the bone.",Italian,Non-Vegetarian
+Mushroom and Poblano Quesadillas,"Crispy flour tortillas stuffed with melted cheese, sautéed mushrooms, and smoky poblano peppers, often served with a side of guacamole.",Mexican,Vegetarian
+Spinach and Cheese Enchiladas,"Corn tortillas rolled around a filling of spinach and cheese, smothered in a vibrant green tomatillo sauce and baked until bubbly.",Mexican,Vegetarian
+Vegetarian Chiles Rellenos,"Poblano peppers carefully roasted and filled with cheese, then lightly battered and fried, served with a mild tomato sauce.",Mexican,Vegetarian
+Veggie Burrito Bowl,"A deconstructed burrito served in a bowl, featuring a base of rice, black beans, corn, pico de gallo, and grilled vegetables without the tortilla.",Mexican,Vegetarian
+Elotes (Mexican Street Corn),"Grilled corn on the cob slathered with mayonnaise, cotija cheese, chili powder, and a squeeze of lime juice.",Mexican,Vegetarian
+Bean and Cheese Sopes,"Thick, small corn masa tortillas with raised edges, topped with refried beans, melted cheese, lettuce, and a sprinkle of cotija cheese.",Mexican,Vegetarian
+Gaeng Keow Wan Pak (Green Curry with Vegetables),"A vibrant and aromatic green curry made with coconut milk, assorted vegetables, and a spicy green chili paste.",Thai,Vegetarian
+Massaman Curry with Tofu and Potatoes,"A rich and mildly spiced curry with influences from Persian cuisine, featuring tender potatoes, tofu, and peanuts in a creamy coconut milk base.",Thai,Vegetarian
+Pad Med Ma Muang Himmapan (Stir-fried Cashew Nuts with Vegetables),"A delightful stir-fry showcasing crispy cashew nuts, colorful vegetables, and a sweet and savory sauce.",Thai,Vegetarian
+Khao Pad Pak (Vegetable Fried Rice),"A classic Thai fried rice dish with fragrant jasmine rice, mixed vegetables, and a hint of soy sauce.",Thai,Vegetarian
+Tom Kha Hed (Mushroom Galangal Coconut Soup),"A creamy and aromatic coconut milk soup infused with galangal, lemongrass, lime, and various mushrooms.",Thai,Vegetarian
+Pad Woon Sen (Stir-fried Glass Noodles with Vegetables),"A light and flavorful stir-fry featuring translucent glass noodles, an assortment of vegetables, and a savory sauce.",Thai,Vegetarian
+Szechuan Chicken,"A spicy chicken dish from the Szechuan province, often prepared with dried chili peppers, Szechuan peppercorns, and various vegetables.",Chinese,Non-Vegetarian
+Hot and Sour Soup (with Shredded Pork),"A savory and spicy soup with a tangy kick, typically made with mushrooms, bamboo shoots, tofu, and often shredded pork.",Chinese,Non-Vegetarian
+Halloumi Skewers,"Grilled skewers featuring chunks of salty halloumi cheese, cherry tomatoes, bell peppers, and onions, often seasoned with herbs.",Mediterranean,Vegetarian
+Artichoke Heart Salad,"A simple and flavorful Mediterranean salad featuring marinated artichoke hearts, olives, sun-dried tomatoes, and fresh herbs, often tossed with a light vinaigrette.",Mediterranean,Vegetarian
+Corned Beef and Cabbage,"A dish of corned beef brisket with boiled potatoes, cabbage, and other root vegetables, traditionally eaten on St. Patrick's Day in America.",American,Non-Vegetarian
+Spaghetti al Pomodoro e Basilico,"A timeless and simple Italian pasta dish featuring spaghetti tossed in a fresh tomato sauce, garlic, and fresh basil leaves.",Italian,Vegetarian
+Pollo Asado,"Grilled chicken, marinated in a blend of spices and citrus juices, cooked until smoky and juicy.",Mexican,Non-Vegetarian
+Chile Relleno with Ground Beef,"A poblano pepper stuffed with seasoned ground beef, coated in an egg batter, fried, and typically covered in a mild tomato sauce.",Mexican,Non-Vegetarian
+Bistec Encebollado,"Thinly sliced beef steak cooked with caramelized onions, often served with rice, beans, and warm tortillas.",Mexican,Non-Vegetarian
+Kadai Paneer,A spicy and aromatic Indian curry where paneer and bell peppers are cooked in a wok (kadai) with freshly ground spices and a tomato-onion base.,Indian,Vegetarian
+Gaeng Panang Gai (Panang Curry Chicken),"A thick, creamy, and mildly spicy red curry with chicken, infused with aromatic kaffir lime leaves and a hint of sweetness.",Thai,Non-Vegetarian
+Khao Pad (Thai Fried Rice),"A simple yet flavorful fried rice dish with egg, vegetables, and your choice of protein such as chicken, pork, or shrimp, seasoned with soy sauce and fish sauce.",Thai,Non-Vegetarian
+Larb Moo (Spicy Minced Pork Salad),"A refreshing and spicy minced pork salad, seasoned with roasted ground rice, fresh herbs, chili, and a zesty lime dressing, offering a burst of authentic Thai flavors.",Thai,Non-Vegetarian
+Yu Xiang Eggplant (Fish-Fragrant Eggplant),"Tender eggplant pieces are braised in a rich, tangy, sweet, and slightly spicy garlic sauce, named for a traditional Sichuan flavor profile.",Chinese,Vegetarian
+Crispy Vegetable Spring Rolls,"Golden-fried spring rolls are filled with a delightful mixture of shredded cabbage, carrots, mushrooms, and other finely diced vegetables, served with a dipping sauce.",Chinese,Vegetarian
+Paella with Chicken and Rabbit,"A traditional Spanish rice dish from Valencia, cooked in a wide, shallow pan with saffron-infused rice, chicken, rabbit, and green beans.",Mediterranean,Non-Vegetarian
+Moroccan Chicken Tagine,"A slow-cooked stew of chicken, olives, preserved lemons, and aromatic spices, typically prepared and served in a distinctive conical earthenware pot.",Mediterranean,Non-Vegetarian
+Sardines a la Plancha,"Fresh whole sardines, simply seasoned with sea salt and olive oil, then grilled quickly on a flat-top grill or hot plate until crispy and tender.",Mediterranean,Non-Vegetarian
+Loaded Baked Potatoes,"Fluffy baked potatoes split open and generously topped with sour cream, shredded cheese, chives, and often vegetarian bacon bits.",American,Vegetarian
+Bollito Misto,"This traditional Piedmontese dish is a generous platter of various cuts of boiled meats, often including beef, veal, and chicken, served with different accompanying sauces.",Italian,Non-Vegetarian
+Chiles Rellenos (Vegetarian),"Roasted poblano peppers stuffed with cheese, then battered and fried, often served swimming in a mild tomato sauce.",Mexican,Vegetarian
+Vegetarian Burrito Bowls,"A deconstructed burrito served in a bowl, featuring cilantro-lime rice, black beans, corn salsa, pico de gallo, avocado, and sour cream or a creamy vegan sauce.",Mexican,Vegetarian
+Black Bean Enchiladas,"Corn tortillas filled with seasoned black beans and cheese, rolled and covered in a flavorful red or green enchilada sauce, then baked until bubbly.",Mexican,Vegetarian
+Esquites (Mexican Street Corn Salad),"A delicious and tangy salad made from corn kernels, usually grilled or sautéed, mixed with mayonnaise, cotija cheese, lime juice, and chili powder.",Mexican,Vegetarian
+Potato and Plant-Based Chorizo Tostadas,"Crispy fried tortillas topped with a savory mixture of seasoned potatoes and plant-based chorizo, garnished with lettuce, salsa, and crema.",Mexican,Vegetarian
+Vegetable Quesadillas,"Corn or flour tortillas filled with melted cheese and a medley of sautéed vegetables like bell peppers, onions, and zucchini.",Mexican,Vegetarian
+Kerala Fish Moilee,"A mild and aromatic fish stew from Kerala, cooked in coconut milk with green chilies, ginger, and curry leaves.",Indian,Non-Vegetarian
+Fresh Spring Rolls (Por Pia Sod),"Healthy and refreshing rolls filled with rice vermicelli, fresh vegetables, herbs, and tofu, often served with a peanut dipping sauce.",Thai,Vegetarian
+Stir-fried Mixed Vegetables (Pad Pak Ruam Mit),A simple yet delicious dish featuring a colorful assortment of fresh seasonal vegetables stir-fried in a light and savory sauce.,Thai,Vegetarian
+Char Siu (Cantonese BBQ Pork),"A popular Cantonese roasted pork dish, known for its distinctive red glaze and succulent, savory-sweet flavor.",Chinese,Non-Vegetarian
+Dolmades (Stuffed Grape Leaves),"Tender grape leaves carefully stuffed with a fragrant mixture of rice, herbs, and sometimes vegetables, then simmered to perfection.",Mediterranean,Vegetarian
+Marinated Artichoke Heart Salad,"A delightful salad featuring tender marinated artichoke hearts, often combined with fresh greens, cherry tomatoes, and a light vinaigrette.",Mediterranean,Vegetarian
+Enchiladas de Pollo,"Corn tortillas rolled around a filling of shredded chicken or beef, covered with a chili-based sauce and cheese.",Mexican,Non-Vegetarian
+Tostadas de Tinga,"Crispy fried corn tortillas topped with shredded chicken in a savory chipotle sauce, beans, lettuce, and cream.",Mexican,Non-Vegetarian
+Mutter Paneer,"A delightful North Indian curry featuring green peas (mutter) and paneer (Indian cheese) cubes in a rich, spiced tomato-onion gravy.",Indian,Vegetarian
+Samosa,"A popular fried or baked pastry with a savory filling, such as spiced potatoes, onions, peas, and lentils, often served with chutney.",Indian,Vegetarian
+Pad Kra Pao Moo (Basil Pork),"A popular Thai stir-fry featuring minced pork, holy basil, and chilies, often served over rice with a fried egg.",Thai,Non-Vegetarian
+Pad Thai with Shrimp,"The iconic Thai stir-fried noodle dish with shrimp, bean sprouts, peanuts, and a sweet and tangy tamarind sauce.",Thai,Non-Vegetarian
+Gaeng Som Pla (Sour Fish Curry),"A traditional southern Thai sour curry with fish and mixed vegetables, known for its intense sour and spicy flavors without coconut milk.",Thai,Non-Vegetarian
+Stir-fried Mixed Vegetables with Garlic,"A vibrant assortment of seasonal Chinese vegetables like bok choy, broccoli, and carrots quickly stir-fried with fragrant garlic.",Chinese,Vegetarian
+Dan Dan Noodles (Vegetarian),"Chewy wheat noodles tossed in a rich and spicy peanut-sesame sauce, garnished with chili oil and sometimes pickled vegetables.",Chinese,Vegetarian
+Braised Shiitake Mushrooms with Bok Choy,Whole shiitake mushrooms and tender bok choy gently braised in a savory soy-ginger sauce.,Chinese,Vegetarian
+Sichuan Tofu Skin Salad (Liang Ban Dou Fu Pi),"Thinly sliced tofu skin tossed in a refreshing and spicy dressing made with chili oil, soy sauce, vinegar, and cilantro.",Chinese,Vegetarian
+Shish Kebab,"A classic Mediterranean dish consisting of marinated cubes of meat, often lamb or beef, skewered and grilled to perfection.",Mediterranean,Non-Vegetarian
+Kozi,"Kozi is a traditional Middle Eastern dish of slow-cooked whole lamb or lamb shank, tenderly prepared with aromatic spices.",Mediterranean,Non-Vegetarian
+Fish Tagine,"This flavorful Moroccan stew showcases various fish fillets simmered with vegetables, olives, and fragrant spices in an earthenware tagine pot.",Mediterranean,Non-Vegetarian
+Seafood and Chicken Paella,"A vibrant Spanish rice dish, this paella variation combines saffron-infused rice with chicken, a variety of seafood, and vegetables.",Mediterranean,Non-Vegetarian
+Classic Macaroni and Cheese,"A creamy baked dish featuring elbow macaroni pasta smothered in a rich cheese sauce, often topped with breadcrumbs.",American,Vegetarian
+Grilled Cheese Sandwich with Tomato Soup,"A comforting meal consisting of a toasted sandwich with melted cheese, typically served alongside a warm bowl of creamy tomato soup.",American,Vegetarian
+French Toast,"Slices of bread soaked in an egg and milk mixture, then fried until golden brown and often served with syrup or fruit.",American,Vegetarian
+Pancakes with Maple Syrup,"Fluffy, flat, round cakes made from a batter and cooked on a griddle, typically stacked and served with butter and maple syrup.",American,Vegetarian
+Arancini al Ragu,"Deep-fried, breaded rice balls from Sicily, typically filled with a savory meat ragu, peas, and mozzarella.",Italian,Non-Vegetarian
+Gnocchi al Ragu,"Soft potato dumplings served with a slow-cooked, rich meat sauce, often made with beef or pork.",Italian,Non-Vegetarian
+Mushroom Tacos al Pastor,"Tacos filled with marinated and grilled mushrooms, pineapple, onions, and cilantro, mimicking the traditional al pastor flavor.",Mexican,Vegetarian
+Huitlacoche Quesadillas,"Corn tortillas filled with the earthy, mushroom-like corn truffle (huitlacoche) and cheese, then grilled until golden.",Mexican,Vegetarian
+Vegetarian Enchiladas Verdes,"Corn tortillas filled with roasted vegetables like zucchini and corn, covered in a vibrant green tomatillo sauce and cheese.",Mexican,Vegetarian
+Black Bean Sopes,"Thick, handmade corn tortillas (sopes) topped with refried black beans, lettuce, queso fresco, crema, and salsa.",Mexican,Vegetarian
+Vegetarian Tortilla Soup,"A flavorful tomato-based broth made with vegetable stock, garnished with crispy tortilla strips, avocado, cheese, and a dollop of crema.",Mexican,Vegetarian
+Cheese and Zucchini Blossom Quesadillas,"Corn tortillas filled with melty cheese and delicate zucchini blossoms, grilled until crispy.",Mexican,Vegetarian
+Hyderabadi Chicken Dum Biryani,"A famous biryani where chicken and basmati rice are layered and slow-cooked together 'dum' style, allowing their flavors to beautifully meld.",Indian,Non-Vegetarian
+Pad Pak Ruam Mit,A simple yet delicious stir-fry of mixed seasonal vegetables in a light garlic and soy-based sauce.,Thai,Vegetarian
+Massaman Hed (Mushroom Massaman Curry),"A mild, rich, and slightly sweet curry with a base of coconut milk, potatoes, onions, and often roasted peanuts, featuring mushrooms as the main protein.",Thai,Vegetarian
+Pad Woon Sen (Glass Noodle Stir-fry),"Transparent glass noodles stir-fried with vegetables like cabbage, carrots, mushrooms, and often scrambled egg or tofu in a light sauce.",Thai,Vegetarian
+Som Tum Thai (Green Papaya Salad),"A vibrant and refreshing salad made from shredded green papaya, long beans, tomatoes, peanuts, and a spicy lime dressing.",Thai,Vegetarian
+Pad Med Ma Muang Himmapan Tofu (Cashew Nut Tofu),"Tofu stir-fried with crunchy cashew nuts, bell peppers, onions, and sometimes dried chilies in a sweet and savory sauce.",Thai,Vegetarian
+Mapo Tofu (with Pork),"A popular spicy and savory dish from Sichuan province, consisting of soft tofu set in a chili-bean paste sauce, often with ground pork.",Chinese,Non-Vegetarian
+Sichuan Dan Dan Noodles (with Pork),"A flavorful and spicy noodle dish from Sichuan, traditionally served with a rich, chili-oil-based sauce, minced pork, and pickled vegetables.",Chinese,Non-Vegetarian
+Hainanese Chicken Rice,"Though often associated with Singapore or Malaysia, this dish of poached chicken and fragrant rice cooked in chicken broth has strong Chinese culinary roots.",Chinese,Non-Vegetarian
+Stuffed Bell Peppers (Vegetarian),"Bell peppers hollowed out and filled with a flavorful mixture of rice, herbs, and sometimes other vegetables, then baked until tender.",Mediterranean,Vegetarian
+Focaccia with Rosemary,"A flat oven-baked Italian bread, similar in style and texture to pizza dough, often seasoned with olive oil and rosemary.",Italian,Vegetarian
+Tinga de Pollo,"Shredded chicken stewed in a smoky, spicy tomato-chipotle sauce, commonly served on tostadas or as a taco filling.",Mexican,Non-Vegetarian
+Khao Pad Gai,"Thai fried rice with chicken is a simple yet satisfying dish, featuring jasmine rice stir-fried with chicken, egg, and vegetables, seasoned with soy sauce and fish sauce.",Thai,Non-Vegetarian
+Satay Gai,"Marinated chicken skewers, grilled to perfection, Satay Gai is typically served with a rich, creamy peanut dipping sauce and a side of cucumber relish.",Thai,Non-Vegetarian
+Gaeng Phet Ped Yang,"Red curry with roasted duck is a vibrant and aromatic dish featuring tender slices of roasted duck simmered in a spicy red curry paste with coconut milk, pineapple, and cherry tomatoes.",Thai,Non-Vegetarian
+Braised Eggplant in Garlic Sauce,Tender eggplant pieces are braised until silky smooth in a rich and aromatic garlic and soy sauce.,Chinese,Vegetarian
+Kung Pao Tofu,"Cubes of firm tofu are stir-fried with peanuts, dried chilies, and Sichuan peppercorns in a sweet, sour, and spicy sauce.",Chinese,Vegetarian
+Sautéed Spinach with Sesame Oil,"Fresh spinach quickly cooked and lightly seasoned with savory sesame oil, offering a simple and nutritious green dish.",Chinese,Vegetarian
+Kefta Tagine,"Moroccan meatballs (kefta) simmered in a rich tomato sauce, often served with eggs poached directly in the sauce.",Mediterranean,Non-Vegetarian
+Moroccan Chicken with Olives and Preserved Lemons,"A fragrant tagine dish where chicken is braised with briny olives, tangy preserved lemons, and aromatic spices.",Mediterranean,Non-Vegetarian
+Merguez Sausage,"A spicy red sausage from North Africa made with lamb or beef, seasoned with harissa and other spices, and often grilled or pan-fried.",Mediterranean,Non-Vegetarian
+Arancini (Ragu filled),"Fried rice balls, typically filled with ragù (meat sauce), peas, and mozzarella cheese.",Italian,Non-Vegetarian
+Costolette d'Agnello Scottadito,"Grilled lamb chops, seasoned and cooked quickly, often served hot enough to be eaten with fingers.",Italian,Non-Vegetarian
+Enchiladas de Verduras,"Corn tortillas are filled with a medley of sautéed vegetables like zucchini, bell peppers, and corn, then rolled and covered in a vibrant red or green sauce and melted cheese.",Mexican,Vegetarian
+Tacos de Jamaica,"Tacos filled with rehydrated hibiscus flowers (jamaica), often cooked with onions and spices, offering a unique tangy and savory flavor profile.",Mexican,Vegetarian
+Molletes (Vegetarian),"Open-faced sandwiches made with toasted bolillo rolls, generously spread with refried beans, and topped with melted cheese, typically served with pico de gallo.",Mexican,Vegetarian
+Poblano Cream Pasta,"Pasta tossed in a rich, velvety sauce made from roasted poblano peppers, garlic, onion, and cream, often with the addition of corn kernels for sweetness.",Mexican,Vegetarian
+Tom Yum Hed (Mushroom Tom Yum Soup),"A spicy and sour clear soup packed with aromatic herbs like lemongrass, galangal, kaffir lime leaves, and various mushrooms.",Thai,Vegetarian
+Tom Kha Hed (Mushroom Coconut Soup),"A creamy and fragrant soup featuring coconut milk, galangal, lemongrass, kaffir lime leaves, and a variety of mushrooms.",Thai,Vegetarian
+Pad Phak Ruam Mit (Stir-fried Mixed Vegetables),A simple yet flavorful dish consisting of an assortment of fresh seasonal vegetables stir-fried with tofu in a light sauce.,Thai,Vegetarian
+Som Tum Thai (Vegetarian Papaya Salad),"A refreshing and spicy salad made from shredded green papaya, carrots, green beans, tomatoes, peanuts, and a chili-lime dressing.",Thai,Vegetarian
+Gaeng Phet Phak (Vegetarian Red Curry),"A popular Thai red curry made with a base of red chili paste, coconut milk, bamboo shoots, bell peppers, and mixed vegetables.",Thai,Vegetarian
+Khao Phad Pak (Vegetarian Fried Rice),"Classic Thai fried rice prepared with jasmine rice, mixed vegetables, tofu, and a savory soy-based sauce.",Thai,Vegetarian
+Mapo Tofu (with Minced Pork),"A popular spicy and numbing dish from Sichuan cuisine, featuring silken tofu set in a spicy sauce with minced pork.",Chinese,Non-Vegetarian
+Roast Pork Belly (Siu Yuk),"Crispy-skinned, succulent roast pork belly, a Cantonese specialty, often served with a dipping sauce.",Chinese,Non-Vegetarian
+Vegetarian Dolmades,"Grape leaves stuffed with a flavorful mixture of rice, herbs like mint and dill, and sometimes pine nuts, then simmered in lemon-infused broth.",Mediterranean,Vegetarian
+Kolokithokeftedes,"Crispy Greek zucchini fritters made with grated zucchini, fresh herbs, and sometimes feta cheese, often served with tzatziki.",Mediterranean,Vegetarian
+Clam Chowder (New England Style),"A thick, creamy soup made with clams, potatoes, onions, and often salt pork or bacon, typically served with oyster crackers.",American,Non-Vegetarian
+Zucchini Fritters,"Crispy, savory fritters made from grated zucchini, often mixed with herbs and cheese, then pan-fried.",Italian,Vegetarian
+Artichoke Lasagna,"A luxurious layered pasta dish featuring tender artichoke hearts, béchamel sauce, and Parmesan cheese.",Italian,Vegetarian
+Enchiladas Rojas (with chicken),"Corn tortillas filled with shredded chicken, rolled, and smothered in a rich, savory red chili sauce.",Mexican,Non-Vegetarian
+Fajitas de Arrachera,"Grilled strips of skirt steak served sizzling hot with sautéed bell peppers and onions, typically with tortillas and condiments.",Mexican,Non-Vegetarian
+Sarson Ka Saag,"A seasonal winter dish from Punjab made from mustard greens and other leafy vegetables, often served with makki di roti (cornbread).",Indian,Vegetarian
+Kai Jeow Moo Sub (Thai Omelette with Minced Pork),"A fluffy and crispy Thai-style omelette mixed with seasoned minced pork, often enjoyed with chili sauce and jasmine rice.",Thai,Non-Vegetarian
+Yum Woon Sen (Glass Noodle Salad with Seafood),"A refreshing and spicy salad made with glass noodles, minced pork, shrimp, onions, peanuts, and a zesty chili-lime dressing.",Thai,Non-Vegetarian
+Goong Tod Gratiem Prik Thai (Garlic Pepper Shrimp),"Succulent shrimp stir-fried with generous amounts of garlic and black pepper, creating a simple yet intensely flavorful dish.",Thai,Non-Vegetarian
+Panang Gai (Panang Chicken Curry),"A thick, creamy, and rich red curry with tender chicken, infused with the aroma of kaffir lime leaves, often garnished with crushed peanuts.",Thai,Non-Vegetarian
+Eggplant in Garlic Sauce,"Tender pieces of eggplant stir-fried and coated in a savory, tangy, and slightly spicy garlic sauce.",Chinese,Vegetarian
+Vegetable Chow Mein,"Wok-fried noodles mixed with a colorful array of fresh vegetables such as cabbage, carrots, bell peppers, and snap peas in a savory soy-based sauce.",Chinese,Vegetarian
+Tofu and Mixed Vegetable Stir-fry,"Cubes of firm tofu stir-fried with a variety of seasonal vegetables like broccoli, snow peas, and carrots in a light soy-ginger sauce.",Chinese,Vegetarian
+Pinchos Morunos,"A Spanish tapa from Andalusia, consisting of marinated pork or chicken cubes skewered and grilled, offering a smoky, spicy flavor.",Mediterranean,Non-Vegetarian
+Turkish Köfte,"Flavorful Turkish meatballs made from ground beef or lamb mixed with spices and herbs, often grilled or pan-fried.",Mediterranean,Non-Vegetarian
+Caprese Grilled Cheese,"A delightful twist on a classic grilled cheese, featuring fresh mozzarella, ripe tomatoes, and basil pesto sandwiched between slices of bread and grilled until golden.",American,Vegetarian
+Spinach Artichoke Dip,"A creamy, cheesy dip made with spinach, artichoke hearts, and several cheeses, often served warm with tortilla chips or bread.",American,Vegetarian
+Coniglio all'Ischitana,"Rabbit cooked 'Ischia style' with tomatoes, garlic, white wine, and aromatic herbs like basil and marjoram.",Italian,Non-Vegetarian
+Vegetarian Sopa de Tortilla,"A comforting, flavorful tomato-based broth is served with crispy tortilla strips, fresh avocado, crumbled cheese, and a dollop of crema.",Mexican,Vegetarian
+Quesadillas with Veggies,"Flour or corn tortillas are grilled until golden with melted cheese and a medley of colorful vegetables like bell peppers, onions, and spinach.",Mexican,Vegetarian
+Huaraches with Nopales,"Oblong masa tortillas are topped with a smear of refried beans, grilled nopales (cactus paddles), cheese, and a vibrant salsa.",Mexican,Vegetarian
+Elote (Mexican Street Corn),"Grilled corn on the cob is slathered with a creamy mixture, dusted with chili powder, crumbled cotija cheese, and finished with a squeeze of lime.",Mexican,Vegetarian
+Frijoles de la Olla,"Simple and hearty whole pinto beans are slowly cooked until tender in a flavorful broth, often with onion, garlic, and cilantro.",Mexican,Vegetarian
+Chicken Biryani,"A flavorful rice dish made with marinated chicken, aromatic basmati rice, and a medley of spices, cooked together in layers.",Indian,Non-Vegetarian
+Stir-fried Mixed Vegetables with Tofu,A healthy and flavorful dish featuring an assortment of vegetables and tofu stir-fried in a light sauce.,Thai,Vegetarian
+Vegan Pineapple Fried Rice,"Fragrant jasmine rice stir-fried with pineapple chunks, cashews, peas, and carrots, often served in a pineapple shell.",Thai,Vegetarian
+Mapo Tofu with Pork,"A popular Szechuan dish combining silken tofu, minced pork, and a fiery, aromatic chili-bean sauce.",Chinese,Non-Vegetarian
+Salt and Pepper Squid,"Crispy fried squid seasoned with a flavorful mix of salt, pepper, and sometimes chili flakes, often served with peppers and onions.",Chinese,Non-Vegetarian
+Wonton Soup,"Delicate pork and shrimp dumplings served in a clear, flavorful chicken or pork broth, often with some greens.",Chinese,Non-Vegetarian
+Mutable (Eggplant Dip),"A Middle Eastern dip similar to baba ghanoush, but often with a creamier texture and a slightly different spice blend.",Mediterranean,Vegetarian
+Lentil Soup (Adas Shorba),"A comforting and hearty soup made from red lentils, carrots, onions, and various spices, often finished with a squeeze of lemon.",Mediterranean,Vegetarian
+New York Strip Steak,"A cut of beef steak from the short loin, known for its tenderness and rich flavor.",American,Non-Vegetarian
+Dosa,"Dosa is a thin, crispy, and savory crepe made from fermented rice and lentil batter, a popular South Indian breakfast often served with sambar and chutney.",Indian,Vegetarian
+Vada Pav,"Vada Pav is a popular Mumbai street food that consists of a deep-fried potato dumpling (vada) placed inside a soft bread bun (pav), served with various chutneys.",Indian,Vegetarian
+Gai Tod (Thai Fried Chicken),"Crispy and flavorful deep-fried chicken marinated in a blend of traditional Thai spices, perfect as a snack or main dish.",Thai,Non-Vegetarian
+Laab Gai,"A refreshing and zesty salad made from finely minced chicken, seasoned with fish sauce, lime juice, chili flakes, and toasted rice powder, garnished with fresh herbs.",Thai,Non-Vegetarian
+Stir-fried Green Beans with Garlic,Crisp green beans are quickly stir-fried with fragrant garlic until tender-crisp and flavorful.,Chinese,Vegetarian
+Dry-fried Tofu with Vegetables,Firm tofu cubes are pan-fried until golden and then stir-fried with a colorful assortment of vegetables in a light sauce.,Chinese,Vegetarian
+Sichuan Dry-Fried Potato Strips,"Thinly cut potato strips are dry-fried until crispy, then tossed with dried chilies, Sichuan peppercorns, and aromatics for a spicy and numbing flavor.",Chinese,Vegetarian
+Tiger Skin Peppers (Hupi Jiao),"Whole green peppers are blistered and stir-fried until their skin wrinkles, then seasoned with soy sauce, vinegar, and a hint of sugar for a smoky and savory side dish.",Chinese,Vegetarian
+Kibbeh,"Kibbeh is a Middle Eastern dish made of bulgur, minced onions, and finely ground lean meat, typically lamb or beef, often shaped into torpedoes and fried, baked, or eaten raw.",Mediterranean,Non-Vegetarian
+Garden Salad with Ranch Dressing,"A fresh mix of lettuce, tomatoes, cucumbers, and other raw vegetables, typically tossed with creamy ranch dressing.",American,Vegetarian
+Vegetarian Hot Dogs,"Plant-based sausage alternatives served in a bun with traditional hot dog toppings like ketchup, mustard, and relish.",American,Vegetarian
+Chile Rellenos,"Roasted poblano peppers stuffed with cheese or a vegetable mixture, lightly battered and fried, then covered in a mild tomato sauce.",Mexican,Vegetarian
+Poblano Rajas con Crema,"Strips of roasted poblano peppers simmered in a rich cream sauce, often served as a side dish or taco filling.",Mexican,Vegetarian
+Vegetarian Burritos,"Large flour tortillas generously stuffed with rice, beans, grilled vegetables, cheese, and salsa, then tightly wrapped.",Mexican,Vegetarian
+Papas con Chorizo (Vegetarian),"Diced potatoes cooked with a plant-based chorizo alternative, perfect for breakfast tacos or as a side dish.",Mexican,Vegetarian
+Biryani (Chicken/Mutton),"A flavorful mixed rice dish made with basmati rice, meat (chicken, mutton, or fish), and a blend of spices.",Indian,Non-Vegetarian
+Pad Thai with Tofu,"Classic stir-fried rice noodles with tofu, bean sprouts, peanuts, and a tangy tamarind sauce.",Thai,Vegetarian
+Pineapple Fried Rice (Vegetarian),"Fragrant jasmine rice stir-fried with pineapple chunks, cashews, raisins, and mixed vegetables, often served in a pineapple half.",Thai,Vegetarian
+Red Curry with Tofu and Vegetables,"A vibrant and spicy red curry with tofu, bamboo shoots, bell peppers, and other fresh vegetables in coconut milk.",Thai,Vegetarian
+Pad Krapow Tofu (Basil Tofu Stir-fry),"A spicy stir-fry of tofu, holy basil, and green beans, often served over rice.",Thai,Vegetarian
+Laab Hed (Mushroom Salad),"A refreshing and spicy Northeastern Thai salad with finely chopped mushrooms, herbs, lime juice, and toasted rice powder.",Thai,Vegetarian
+Pot Roast,"A dish of slowly cooked beef, often a chuck roast, simmered with vegetables like potatoes, carrots, and onions in a flavorful broth.",American,Non-Vegetarian
+Penne all'Arrabbiata,"Penne pasta tossed in a spicy tomato sauce made with garlic, tomatoes, and dried red chili peppers.",Italian,Vegetarian
+Al Pastor,"Marinated pork, typically cooked on a vertical spit with pineapple, then thinly sliced and served in tacos.",Mexican,Non-Vegetarian
+Chicharrón en Salsa Verde,"Crispy fried pork rinds (chicharrón) simmered in a vibrant and tangy green tomatillo sauce, often served with tortillas.",Mexican,Non-Vegetarian
+Red Curry (Gaeng Phet),"Gaeng Phet is a fiery and aromatic Red Curry prepared with red chili paste, coconut milk, and your choice of meat like chicken or duck, along with bamboo shoots.",Thai,Non-Vegetarian
+Chicken Satay (Gai Satay),"Gai Satay consists of marinated and grilled chicken skewers, served with a flavorful peanut sauce and a tangy cucumber relish.",Thai,Non-Vegetarian
+Stir-fried Mushrooms with Vegetarian Oyster Sauce,A hearty dish featuring various mushrooms stir-fried with a savory vegetarian oyster sauce made from mushrooms.,Chinese,Vegetarian
+Sichuan Cold Noodles (Liang Mian) with Peanut Sauce,"Chewy wheat noodles tossed in a spicy, nutty, and savory sauce with cucumber and chili oil.",Chinese,Vegetarian
+Kozi (Lamb Shank),"Kozi is a traditional Middle Eastern dish of slow-cooked lamb shanks, often served tenderly with seasoned rice and nuts.",Mediterranean,Non-Vegetarian
+Bolognese (Tagliatelle al Ragù),"A rich, slow-cooked meat sauce typically made with a mix of ground beef and/or pork, vegetables, and tomatoes, famously served with tagliatelle pasta.",Italian,Non-Vegetarian
+Poblano and Corn Raja Tacos,"These tacos are packed with a vibrant mixture of roasted poblano pepper strips and sweet corn kernels, often enhanced with a creamy sauce.",Mexican,Vegetarian
+Cheese Enchiladas,"Corn tortillas are rolled with a generous filling of cheese, then covered in a rich red or green chili sauce and baked until bubbling hot.",Mexican,Vegetarian
+Pad Krapow (Basil Stir-fry),"A spicy and aromatic stir-fry featuring holy basil, green beans, chili, and minced tofu or mushrooms, often served over rice.",Thai,Vegetarian
+Massaman Curry with Vegetables & Tofu,"A mild and rich curry featuring potatoes, peanuts, onions, and tender tofu simmered in a creamy coconut milk base with aromatic spices.",Thai,Vegetarian
+Green Curry with Vegetables & Tofu,"A vibrant and spicy curry made with green chilies, coconut milk, bamboo shoots, Thai eggplant, and tofu, offering a refreshing heat.",Thai,Vegetarian
+Red Curry with Vegetables & Tofu,"A classic spicy curry made with red chilies, coconut milk, bamboo shoots, bell peppers, and tofu, known for its bold and fiery flavor.",Thai,Vegetarian
+Pineapple Fried Rice,"A delightful and colorful fried rice dish with fresh pineapple chunks, cashews, raisins, and tofu, often served in a hollowed-out pineapple.",Thai,Vegetarian
+Spicy Cumin Lamb,"A flavorful Xinjiang dish with tender lamb slices stir-fried with cumin, chili flakes, and other spices, offering a fragrant and spicy kick.",Chinese,Non-Vegetarian
+Fakes Soupa (Greek Lentil Soup),"A hearty and nutritious Greek lentil soup, slow-cooked with vegetables like carrots and celery, and finished with a drizzle of olive oil.",Mediterranean,Vegetarian
+Chili con Carne,"A savory stew consisting of ground beef, chili powder, tomatoes, and often beans.",American,Non-Vegetarian
+Pasta al Pomodoro,"A simple yet iconic Italian pasta dish featuring pasta tossed in a fresh tomato sauce, usually with garlic and basil.",Italian,Vegetarian
+Frittelle di Zucchine,"Crispy, savory fritters made from grated zucchini, often mixed with cheese, herbs, and then fried until golden.",Italian,Vegetarian
+Chiles en Nogada,"Chiles en Nogada consists of poblano chilies stuffed with picadillo (a mixture of ground meat and fruit), topped with a walnut cream sauce and pomegranate seeds.",Mexican,Non-Vegetarian
+Arrachera,"Arrachera refers to grilled skirt steak, a tender and flavorful cut often marinated and served in fajitas or tacos.",Mexican,Non-Vegetarian
+Pad Kra Pao Gai,"Pad Kra Pao Gai is a popular stir-fry dish featuring minced chicken (or other meat) with holy basil, chilies, garlic, and green beans, often served with rice and a fried egg.",Thai,Non-Vegetarian
+Khao Pad,"Khao Pad is a classic Thai fried rice dish, typically prepared with jasmine rice, egg, onion, and a choice of protein such as chicken, pork, or shrimp.",Thai,Non-Vegetarian
+Stir-fried Greens with Garlic,A simple yet delicious dish of fresh leafy greens like bok choy or gai lan quickly stir-fried with fragrant garlic.,Chinese,Vegetarian
+Stir-fried Tofu and Broccoli,"Tender pieces of fried or braised tofu and fresh broccoli florets tossed in a rich, savory vegetarian stir-fry sauce.",Chinese,Vegetarian
+Souvlaki (Pork/Chicken),"Small pieces of marinated pork or chicken, grilled on a skewer and a popular street food.",Mediterranean,Non-Vegetarian
+Tlacoyos (Vegetarian),"Oval-shaped corn masa tortillas, typically filled with cheese or beans, then griddled and topped with salsa, nopales, and more cheese.",Mexican,Vegetarian
+Green Curry with Mixed Vegetables,"A fragrant and spicy Thai curry made with green chili paste, coconut milk, bamboo shoots, eggplant, bell peppers, and various other vegetables.",Thai,Vegetarian
+Som Tum (Green Papaya Salad - Vegetarian),"A refreshing and tangy salad made with shredded green papaya, long beans, tomatoes, peanuts, and a spicy lime dressing, omitting fish sauce.",Thai,Vegetarian
+Panang Curry with Vegetables and Tofu,"A creamy and subtly spicy red curry with coconut milk, kaffir lime leaves, and often bell peppers and green beans alongside tofu.",Thai,Vegetarian
+Pad Kra Pao Tofu (Spicy Basil Tofu),"A flavorful and spicy stir-fry with crispy tofu, fresh basil leaves, green beans, and chili garlic sauce, served over rice.",Thai,Vegetarian
+Pad Mee Korat (Vegetarian Korat-style Noodles),"A regional stir-fried noodle dish from Nakhon Ratchasima, featuring thin rice noodles, tofu, bean sprouts, and a distinctive sweet and savory sauce.",Thai,Vegetarian
+Hummus with Pita Bread,"A creamy chickpea dip, often served with warm pita bread for a classic Mediterranean appetizer.",Mediterranean,Vegetarian
+Dolmades (Vegetarian Stuffed Grape Leaves),"Grape leaves stuffed with a flavorful mixture of rice, herbs, and sometimes pine nuts, then cooked until tender.",Mediterranean,Vegetarian
+Moussaka (Vegetarian Version),"A layered casserole featuring baked eggplant slices, a rich tomato-based vegetable ragout, and topped with a creamy béchamel sauce.",Mediterranean,Vegetarian
+Pasta e Fagioli (Vegetarian),"A traditional peasant dish featuring a comforting soup or stew made with ditalini pasta and cannellini beans, simmered in a savory tomato-based broth with aromatic vegetables.",Italian,Vegetarian
+Barbacoa de Res,"Slow-cooked beef traditionally prepared in an underground oven, resulting in very tender, flavorful meat.",Mexican,Non-Vegetarian
+Chile Relleno (with picadillo),"A roasted poblano pepper stuffed with cheese and seasoned ground meat, then battered and fried.",Mexican,Non-Vegetarian
+Gai Satay,"Marinated chicken skewers grilled to perfection and served with a rich, creamy peanut dipping sauce and a side of cucumber relish.",Thai,Non-Vegetarian
+Stir-fried Tofu with Mixed Vegetables,"A classic dish featuring cubes of fried tofu stir-fried with an assortment of crisp vegetables like bell peppers, broccoli, and carrots in a savory sauce.",Chinese,Vegetarian
+Mapo Tofu (Vegetarian Version),"A spicy and aromatic dish featuring silken tofu simmered in a rich, numbing-spicy sauce made with fermented broad bean paste, chili oil, and Sichuan peppercorns, traditionally without meat.",Chinese,Vegetarian
+Home-style Tofu (Jia Chang Dou Fu),"Pan-fried tofu triangles are braised with various vegetables like mushrooms, carrots, and peas in a hearty, umami-rich sauce.",Chinese,Vegetarian
+Tagine,"A Tagine is a slow-cooked stew of meat, commonly lamb or chicken, with vegetables and spices, prepared and served in an earthenware pot with a conical lid.",Mediterranean,Non-Vegetarian
+Paella,"Paella is a Spanish rice dish often prepared with a flavorful combination of seafood, chicken, and vegetables, seasoned with saffron.",Mediterranean,Non-Vegetarian
+Dolmades (Meat-filled),"Meat-filled Dolmades are grape leaves stuffed with a savory mixture of ground meat, rice, herbs, and spices, then simmered until tender.",Mediterranean,Non-Vegetarian
+Pumpkin Pie,"A traditional American dessert pie featuring a spiced custard filling made from pumpkin, baked in a pie crust.",American,Vegetarian
+Spezzatino,"A hearty Italian beef stew, slow-cooked with vegetables like potatoes, carrots, and peas in a rich tomato-based sauce.",Italian,Non-Vegetarian
+Veggie Tacos,"Soft corn tortillas filled with a flavorful mix of roasted vegetables like bell peppers, onions, zucchini, and corn, often topped with salsa and avocado.",Mexican,Vegetarian
+Black Bean and Corn Salsa,"A refreshing dip made with black beans, sweet corn, red onion, cilantro, lime juice, and diced bell peppers, perfect with tortilla chips.",Mexican,Vegetarian
+Sweet Potato and Black Bean Burritos,"Large flour tortillas stuffed with seasoned roasted sweet potatoes, black beans, rice, and fresh salsa, then wrapped tightly.",Mexican,Vegetarian
+Nopales Salad (Cactus Salad),"A light and tangy salad made with cooked and diced prickly pear cactus paddles, tomatoes, onions, cilantro, and a lime vinaigrette.",Mexican,Vegetarian
+Pico de Gallo,"A classic fresh salsa made from chopped tomatoes, onions, cilantro, serrano peppers, and lime juice.",Mexican,Vegetarian
+Pork Vindaloo,"A spicy and tangy Goan curry made with pork, vinegar, and a blend of pungent spices.",Indian,Non-Vegetarian
+Kolhapuri Chicken,"A spicy and flavorful chicken curry from Kolhapur, Maharashtra, made with a special blend of roasted spices.",Indian,Non-Vegetarian
+Vegetarian Spring Rolls (Por Pia Tod),"Crispy fried rolls filled with glass noodles and mixed vegetables, typically served with a sweet chili dipping sauce.",Thai,Vegetarian
+Mango Sticky Rice (Khao Niao Mamuang),"A popular Thai dessert featuring sweet sticky rice, fresh slices of ripe mango, and a drizzle of creamy coconut milk.",Thai,Vegetarian
+Laab Hed (Mushroom Larb),"A refreshing and spicy Thai salad made with minced mushrooms, fresh herbs, lime juice, and toasted rice powder.",Thai,Vegetarian
