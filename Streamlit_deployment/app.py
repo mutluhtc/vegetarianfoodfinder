@@ -49,6 +49,9 @@ def normalize_cuisine(categories_str):
 def load_all_jsons(folder_path):
     """Load and merge all JSON files from a folder into one list."""
     all_data = []
+
+    # ✅ ensure path works both locally and on Streamlit Cloud
+    folder_path = os.path.join(os.path.dirname(__file__), folder_path)
     json_files = glob.glob(os.path.join(folder_path, "*.json"))
 
     for file in json_files:
@@ -60,7 +63,7 @@ def load_all_jsons(folder_path):
                 else:
                     all_data.append(data)
         except Exception as e:
-            st.warning(f"⚠️ Error reading {file}: {e}")
+            st.warning(f"⚠️ Error reading {os.path.basename(file)}: {e}")
 
     valid_data = [r for r in all_data if r.get("menu") and len(r["menu"]) > 0]
     for r in valid_data:
@@ -89,7 +92,7 @@ def get_coordinates_from_zip(zip_code):
 
 
 # --- Load data (folder with all 28 JSONs) ---
-data = load_all_jsons("data_jsons")   # <-- your folder containing the JSONs
+data = load_all_jsons("data_jsons")   # folder name stays the same
 
 # --- Header ---
 st.title("🥗 Veggie Food Finder — Your Personalized Vegetarian Food Map")
@@ -239,3 +242,4 @@ else:
                 )
                 dishes_display.columns = ["Dish Name", "Price", "Description", "Vegetarian Label"]
                 st.dataframe(dishes_display, use_container_width=True)
+

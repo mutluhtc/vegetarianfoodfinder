@@ -1,0 +1,15 @@
+pandas
+requests
+python-dotenv
+numpy
+scikit-learn
+datasets
+torch
+transformers
+accelerate>=0.26.0
+peft
+bitsandbytes
+tabulate
+tiktoken
+protobuf
+sentencepiece

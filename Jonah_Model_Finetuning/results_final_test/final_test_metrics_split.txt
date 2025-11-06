@@ -1,0 +1,4 @@
+Synthetic Test Accuracy: 0.98
+Synthetic Test F1 Score: 0.9770114942528736
+Yelp Test Accuracy: 0.94
+Yelp Test F1 Score: 0.9375
