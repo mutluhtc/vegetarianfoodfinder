@@ -1,0 +1,7 @@
+streamlit
+pandas
+numpy
+python-dotenv
+streamlit-aggrid
+folium
+streamlit-folium
