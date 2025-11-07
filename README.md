@@ -15,9 +15,10 @@
 ## 🤝 Contributors
 
 **Team VeggieFoodFinder**  
-- [Your Name] — Data Science & Model Development  
-- [Collaborator 1] — Web Scraping & Data Engineering  
-- [Collaborator 2] — Frontend & Visualization  
+- 
+- 
+-
+-
 
 ---
 
