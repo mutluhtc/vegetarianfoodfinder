@@ -217,4 +217,18 @@ Cross-validation and final testing confirmed BERT’s stable performance across 
 **Conclusion:**  
 Fine-tuned BERT provided the best balance between accuracy, model size, and generalization across synthetic and real-world restaurant data.  
 
+## 🚀 Deployment
 
+### Streamlit Web Application
+**Folder:** `Streamlit_deployment/`  
+**Live Demo:** [🌱 VeggieFoodFinder Streamlit App](https://vegetarianfoodfinder.streamlit.app/)
+
+### Overview
+The trained **BERT classification model** and extracted restaurant data are integrated into an interactive **Streamlit web application** that allows users to explore vegetarian options across multiple U.S. cities.
+
+### Features
+- 🔍 **ZIP Code Search:** Enter a ZIP code to find nearby restaurants.  
+- 🥗 **Dish Classification:** View vegetarian and non-vegetarian dishes with clear labels.  
+- 📍 **Interactive Map:** Visualize restaurant locations and menu diversity.  
+- 🍱 **Custom Filters:** Filter results by cuisine, dietary preference, and distance.  
+- ⚙️ **Dynamic Data Loading:** Automatically retrieves the latest available menu data for selected areas.
