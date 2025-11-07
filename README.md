@@ -120,9 +120,101 @@ To ensure the classifier generalizes well across synthetic and real-world datase
 
 4. **Performance Averaging**
    - Repeat for all 5 permutations.  
-   - Compute the **average accuracy, F1 score, and precision-recall metrics** across all folds.  
+   - Compute the **average accuracy and F1 score** across all folds.  
    - Analyze the performance gap between synthetic and real-world evaluations to measure generalization strength.
 
 ### Outcome
 This approach provided a **balanced and reliable measure of model performance**, confirming that the classifier maintained consistent accuracy across both curated and real-world datasets.
+
+## 🧠 Model Training and Evaluation
+
+### Overview
+Model training was conducted in two phases:  
+1. **Baseline Model Development** — classical machine learning approaches  
+2. **LLM Fine-Tuning** — transformer-based model optimization for contextual understanding  
+
+All models were evaluated using the 5-fold cross-validation pipeline described earlier.
+
+---
+
+### Phase 1: 🧩 Baseline Model Development
+**Folder:** `model_training/baseline_models/`  
+
+**Goal:** Establish a baseline for text-based dish classification using traditional machine learning models.
+
+**Models Tested:**
+- XGBoost  
+- Decision Tree  
+- Random Forest  
+- Logistic Regression  
+- Naive Bayes  
+- K-Nearest Neighbors  
+- Support Vector Machine (SVM)
+
+**Text Representations:**
+- **TF-IDF (Term Frequency–Inverse Document Frequency)**
+- **Word Embeddings**
+
+**Performance Results:**
+
+| Dataset | Technique | F1-Score |
+|----------|------------|----------|
+| Synthetic Data | TF-IDF | **0.95** |
+| Synthetic Data | Word Embeddings | **0.70** |
+| Real-World Yelp Data | TF-IDF | **0.90** |
+| Real-World Yelp Data | Word Embeddings | **0.70** |
+
+**Outcome:**  
+The TF-IDF–based XGBoost model performed best among baseline classifiers, achieving high precision on synthetic data but showing reduced generalization to real-world Yelp data.  
+
+---
+
+### Phase 2: 🤖 LLM Model Fine-Tuning
+**Folder:** `model_training/LLM_Model_Finetuning/`  
+
+**Goal:** Improve contextual understanding of menu text using transformer-based language models.
+
+**Models Tested:**
+- BERT  
+- mBERT (Multilingual BERT)  
+- DeBERTa  
+- Gemma-3 
+
+**Key Customizations:**
+- Fine-tuned with an **enhanced vocabulary** of ~210 **cuisine-specific tokens**  
+  *(e.g., “paneer,” “brisket,” “gnocchi”)*  
+- Multiple **hyperparameter tuning experiments** (epochs, learning rate) were tested — none yielded major improvements beyond the base configuration.
+
+**Performance Results:**
+
+| Model | Dataset | F1-Score |
+|--------|----------|----------|
+| **BERT** | Synthetic | **0.98** |
+| **BERT** | Real-World Yelp | **0.94** |
+| **DeBERTa** | Synthetic | **0.98** |
+| **DeBERTa** | Real-World Yelp | **0.94** |
+| **Gemma-3** | Overall | **0.40** |
+| **mBERT** | Similar to BERT (no significant gain) | — |
+
+**Model Selection:**  
+BERT was chosen as the **final production model** because it provides nearly identical performance to DeBERTa while being more computationally efficient and faster to deploy.
+
+**Final Evaluation:**  
+Cross-validation and final testing confirmed BERT’s stable performance across both datasets — achieving an average **0.94 F1-score** on real-world Yelp menu data.
+
+---
+
+### Summary
+| Model Family | Best Model | Synthetic F1 | Real Yelp F1 | Notes |
+|---------------|-------------|--------------|--------------|-------|
+| Traditional ML | XGBoost | 0.95 | 0.90 | Strong baseline |
+| Transformer (LLM) | BERT | 0.98 | 0.94 | Selected final model |
+| Transformer (LLM) | DeBERTa | 0.98 | 0.94 | Similar but heavier |
+| Transformer (LLM) | Gemma-3 | 0.40 | 0.40 | Poor performance |
+
+---
+
+**Conclusion:**  
+Fine-tuned BERT provided the best balance between accuracy, model size, and generalization across synthetic and real-world restaurant data.  
+
 
