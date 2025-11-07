@@ -34,89 +34,46 @@ The result is a unified, structured menu dataset visualized through an **interac
 
 ---
 
-## 📊 Data & Model Development
+## 🚀 Overview
 
-- **Data Collection:** ~1,200 restaurants per city across **29 U.S. cities** using Yelp API.  
-- **Menu Parsing:** Supports both **HTML** and **PDF** menus; image-based menus to be added.  
-- **Validation:** Invalid or empty menus automatically filtered out via an **LLM pipeline**.  
-- **Model Training:**  
-  - Datasets: Kaggle + Hugging Face + real Yelp menus  
-  - Benchmarked: XGBoost, BERT, FLAN-T5, Gemma-3 270M, mBERT  
-  - **Best Model:** Fine-tuned **BERT** (Accuracy: 94%, F1: 0.94)
-
----
-
-## 💼 Impact
-
-### For Users
-- Instantly discover verified vegetarian dishes nearby  
-- Filter by cuisine, distance, or dietary preference  
-- Save time and avoid menu guesswork  
-
-### For Businesses
-- Showcase inclusive menus to attract dietary-specific audiences  
-- Integrate with restaurant discovery and reservation apps  
+This project aims to automate the process of finding vegetarian-friendly restaurants.  
+The system:
+1. Scrapes restaurant and menu data.
+2. Prepares and labels the data for machine learning.
+3. Trains a model to classify whether a restaurant offers vegetarian options.
+4. Deploys a Streamlit app to visualize and interact with the results.
 
 ---
 
-## ⚙️ Tech Stack
+## 🧩 Pipeline Overview
 
-| Category | Tools / Libraries |
-|-----------|-------------------|
-| **Data Collection** | Yelp Fusion API, Requests, BeautifulSoup, PDFPlumber |
-| **Data Processing** | Pandas, JSON, Regex |
-| **LLM Extraction** | Gemini 2.5 Flash |
-| **Modeling** | BERT, Scikit-learn, XGBoost, PyTorch |
-| **Deployment (Future)** | Streamlit / Flask (prototype), Google Maps API |
-| **Storage** | CSV / JSON |
+### 1. **Data Collection**
+**Folder:** `data_prep/yelp_data_scraping/`
 
----
+## 🧭 Data Collection & Scraping
 
-## 🔮 Future Work
+### **Step 1: Collecting Restaurant Data**
+- Used the **Yelp Fusion API** to gather restaurant details — names, cuisines, ratings, and website links.  
+- Focused on **29 major U.S. cities**, collecting data for roughly **1,200 restaurants per city**.  
+- The **API’s free-tier rate limits** shaped the overall dataset size and coverage.
 
-- Expand coverage beyond 29 cities  
-- Add **OCR and multimodal training** for image-based menus  
-- Improve classification of seafood and conditional dishes  
-- Integrate with external restaurant and reservation platforms  
-- Optimize for scalability and UI performance  
+### **Step 2: Retrieving Menus**
+- Restaurant websites varied widely — some hosted menus as **HTML pages**, others as **PDFs**, and a few only as **images**.  
+- Built a **custom scraping system** capable of handling both **HTML and PDF** formats.  
+- Extracted **raw text** from each menu, forming the foundation for the next stage: **cleaning and detecting valid menu items**.  
 
 ---
 
-## 🧩 Repository Structure
+### Step 1: **Menu Classification**
+**Folder:** `data_prep/menu_extraction/check_menu.py`
 
+**Goal:** Automatically detect whether a scraped document truly represents a restaurant menu.
 
+After collecting raw HTML and PDF text from restaurant websites, many files turned out to be non-menu pages such as contact information, image placeholders, or empty files.  
+To ensure high-quality downstream data, we used **Gemini 2.5 Flash** to classify valid menus.
 
----
+**Model:** Gemini 2.5 Flash  
+**System Instruction:**
+"You are an expert document classifier. Your only output must be 'yes' or 'no'. 
+Do not include any explanations, punctuation, or other text."
 
-## 📈 Results
-
-| Model | Accuracy | F1 Score |
-|--------|-----------|----------|
-| XGBoost | 0.88 | 0.87 |
-| FLAN-T5 | 0.91 | 0.91 |
-| mBERT | 0.92 | 0.92 |
-| **Fine-tuned BERT** | **0.94** | **0.94** |
-
----
-
-## 🤝 Contributors
-
-**Team VeggieFoodFinder**  
-- 
-- 
--
--
-
----
-
-## 🧾 License
-
-This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
-
----
-
-## 💡 Acknowledgments
-
-- [Yelp Fusion API](https://www.yelp.com/developers/documentation/v3) for restaurant metadata  
-- [Gemini 2.5 Flash](https://ai.google.dev) for structured text extraction  
-- Open-source datasets from Kaggle and Hugging Face  
