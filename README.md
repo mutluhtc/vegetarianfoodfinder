@@ -100,7 +100,7 @@ We then:
 ## 🔁 Cross-Validation Strategy 
 
 ### Overview
-To ensure the classifier generalizes well across synthetic and real-world datasets, we implemented a **5-fold cross-validation** pipeline. Both the **synthetic training corpus** and **Yelp real-world data** were split into **five non-overlapping folds** each.
+To ensure the classifier generalizes well across synthetic and real-world datasets, we implemented a **5-fold cross-validation** pipeline. Both the **synthetic training corpus** and **Yelp real-world training data** were split into **five non-overlapping folds** each.
 
 ### Process
 
