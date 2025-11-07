@@ -16,7 +16,7 @@ Instead of manually browsing menus or checking multiple websites, users can simp
 Existing platforms like **Yelp** and **Google Maps** offer basic “vegetarian-friendly” filters but fail to display **specific dishes** or detailed menu content.
 
 **VeggieFoodFinder** addresses this gap by combining:
-- **Automated web scraping** for menu data  
+- **Web scraping** for menu data  
 - **LLM-based information extraction**  
 - **Machine learning classification** for dish labeling  
 
