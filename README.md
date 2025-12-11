@@ -126,12 +126,12 @@ To ensure the classifier generalizes well across synthetic and real-world datase
 ### Outcome
 This approach provided a **balanced and reliable measure of model performance**, confirming that the classifier maintained consistent accuracy across both curated and real-world datasets.
 
-## 🧠 Model Training and Evaluation
+## 3. Model Training and Evaluation
 
 ### Overview
 Model training was conducted in two phases:  
-1. **Baseline Model Development** — classical machine learning approaches  
-2. **LLM Fine-Tuning** — transformer-based model optimization for contextual understanding  
+Phase 1. **Baseline Model Development** — classical machine learning approaches  
+Phase 2. **LLM Fine-Tuning** — transformer-based model optimization for contextual understanding  
 
 All models were evaluated using the 5-fold cross-validation pipeline described earlier.
 
@@ -217,7 +217,7 @@ Cross-validation and final testing confirmed BERT’s stable performance across 
 **Conclusion:**  
 Fine-tuned BERT provided the best balance between accuracy, model size, and generalization across synthetic and real-world restaurant data.  
 
-## 🚀 Deployment
+## 🚀 4. Deployment
 
 ### Streamlit Web Application
 **Folder:** `Streamlit_deployment/`  
