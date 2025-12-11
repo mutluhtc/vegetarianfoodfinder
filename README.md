@@ -63,7 +63,7 @@ The system:
 - Extracted **raw text** from each menu, forming the foundation for the next stage: **cleaning and detecting valid menu items**.  
 
 ---
-### 2. Prepares and labels the data for machine learning.
+### 2. Prepare and label the data for machine learning.
 ### Step 1: **Menu Classification**
 **Folder:** `data_prep/menu_extraction/check_menu.py`
 
