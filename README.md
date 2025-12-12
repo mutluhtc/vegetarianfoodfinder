@@ -86,7 +86,7 @@ Do not include any explanations, punctuation, or other text."
 3. Extract fields → `[Item | Price | Description]`  
 4. Store results in JSON format for downstream analysis and modeling  
 
-## 🧠 Data Curation and Labeling
+### 3) Data Curation & Labeling
 
 In parallel with the menu extraction pipeline, we curated and cleaned **open-source datasets** from **Kaggle** and **Hugging Face** to construct a **synthetic training corpus** for the dish classifier.  
 
@@ -127,7 +127,7 @@ Both datasets were split into **five non-overlapping folds**.
 This approach provided a balanced estimate of model performance and confirmed stable generalization to real-world Yelp data.
 
 
-## 3. Model Training and Evaluation
+## 5) Model Training & Evaluation
 
 ### Overview
 Model training was conducted in two phases:  
@@ -205,7 +205,7 @@ Fine-tuned BERT provided the best balance between accuracy, efficiency, and real
 
 ---
 
-## 🚀 4. Deployment
+## Deployment
 
 ### Streamlit Web Application
 **Folder:** `Streamlit_deployment/`  
