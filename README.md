@@ -1,106 +1,106 @@
-# 🥗 VeggieFoodFinder
-
+# 🥗 VeggieFoodFinder  
 **An AI-powered restaurant discovery app for vegetarian and vegetarian-friendly dishes**
+
+## 📚 Table of Contents
+- [Overview](#-overview)
+- [Problem & Motivation](#-problem--motivation)
+- [System at a Glance (How It Works)](#-system-at-a-glance-how-it-works)
+- [Pipeline Overview](#-pipeline-overview)
+  - [Data Collection & Scraping](#1-data-collection--scraping)
+  - [Menu Validation & Structured Extraction](#2-menu-validation--structured-extraction)
+  - [Data Curation & Labeling](#3-data-curation--labeling)
+  - [Cross-Validation Strategy](#4--cross-validation-strategy)
+  - [Model Training & Evaluation](#5-model-training--evaluation)
+- [Deployment](#-deployment)
 
 ---
 
 ## 🌟 Overview
-
-**VeggieFoodFinder** simplifies the process of finding vegetarian and vegetarian-friendly dining options.  
-Instead of manually browsing menus or checking multiple websites, users can simply enter a ZIP code to explore nearby restaurants with clearly labeled vegetarian and non-vegetarian dishes — customizable by cuisine, dietary preference, and distance.
+**VeggieFoodFinder** helps users find vegetarian and vegetarian-friendly dining options by extracting dish-level menu information rather than relying on coarse “vegetarian-friendly” tags.  
+Users enter a ZIP code to explore nearby restaurants with dishes labeled as vegetarian vs. non-vegetarian, with filters for cuisine, dietary preference, and distance.
 
 ---
 
 ## 🚀 Problem & Motivation
+Existing platforms like **Yelp** and **Google Maps** offer basic “vegetarian-friendly” filters but typically do not surface **specific dishes** or detailed menu content.
 
-Existing platforms like **Yelp** and **Google Maps** offer basic “vegetarian-friendly” filters but fail to display **specific dishes** or detailed menu content.
-
-**VeggieFoodFinder** addresses this gap by combining:
+VeggieFoodFinder addresses this gap by combining:
 - **Web scraping** for menu data  
 - **LLM-based information extraction**  
 - **Machine learning classification** for dish labeling  
 
-The result is a unified, structured menu dataset visualized through an **interactive map interface**.
+The result is a unified, structured menu dataset visualized through an **interactive interface**.
 
 ---
 
-## 🧠 How It Works
-
-1. **Input ZIP code** → The system retrieves nearby restaurants using the **Yelp Fusion API**.  
-2. **Scraping & Extraction** → Menus (HTML/PDF) are parsed and validated using **LLM-based filters**.  
-3. **Data Structuring** → **Gemini 2.5 Flash** extracts dish names, descriptions, and prices into JSON format.  
-4. **Classification** → A fine-tuned **BERT** model labels each dish as *vegetarian* or *non-vegetarian*.  
-5. **Visualization** → Results are displayed in an interactive interface with filtering options.
-
----
-
-## 🚀 Overview
-
-This project aims to automate the process of finding vegetarian-friendly restaurants.  
-The system:
-1. Scrapes restaurant and menu data.
-2. Prepares and labels the data for machine learning.
-3. Trains a model to classify whether a restaurant offers vegetarian options.
-4. Deploys a Streamlit app to visualize and interact with the results.
+## 🧠 System at a Glance (How It Works)
+1. **Input ZIP code** → Retrieve nearby restaurants via the **Yelp Fusion API**  
+2. **Scrape menus** → Collect menus from restaurant websites (HTML / PDF)  
+3. **Validate menus** → Filter valid menus using LLM-based classification  
+4. **Extract structured items** → Use **Gemini 2.5 Flash** to extract dishes into JSON  
+5. **Classify dishes** → Fine-tuned **BERT** labels dishes as vegetarian or non-vegetarian  
+6. **Deploy & visualize** → Results displayed via a **Streamlit** application  
 
 ---
 
 ## 🧩 Pipeline Overview
 
-## 1. **Data Collection**
+### 1) Data Collection & Scraping  
 **Folder:** `data_prep/yelp_data_scraping/`
 
-## 🧭 Data Collection & Scraping
+#### Step 1: Collect Restaurant Data
+- Used the **Yelp Fusion API** to gather restaurant metadata (names, cuisines, ratings, website links).  
+- Focused on **29 major U.S. cities**, collecting roughly **1,200 restaurants per city**.  
+- Dataset size and coverage were shaped by the API’s free-tier rate limits.
 
-### **Step 1: Collecting Restaurant Data**
-- Used the **Yelp Fusion API** to gather restaurant details — names, cuisines, ratings, and website links.  
-- Focused on **29 major U.S. cities**, collecting data for roughly **1,200 restaurants per city**.  
-- The **API’s free-tier rate limits** shaped the overall dataset size and coverage.
-
-### **Step 2: Retrieving Menus**
-- Restaurant websites varied widely — some hosted menus as **HTML pages**, others as **PDFs**, and a few only as **images**.  
-- Built a **custom scraping system** capable of handling both **HTML and PDF** formats.  
-- Extracted **raw text** from each menu, forming the foundation for the next stage: **cleaning and detecting valid menu items**.  
+#### Step 2: Retrieve Menus
+- Restaurant menus appeared in multiple formats: **HTML**, **PDF**, and occasionally **images**.  
+- Built a custom scraping system capable of handling **HTML and PDF** formats.  
+- Extracted **raw text** from menus for downstream validation and item extraction.
 
 ---
-## 2. Prepare and label the data for machine learning.
-### Step 1: **Menu Classification**
-**Folder:** `data_prep/menu_extraction/check_menu.py`
 
+### 2) Menu Validation & Structured Extraction  
+**Folder:** `data_prep/menu_extraction/`
+
+#### Step 1: Menu Classification (Valid Menu vs. Non-Menu)
+**Script:** `check_menu.py`  
 **Goal:** Automatically detect whether a scraped document truly represents a restaurant menu.
 
-After collecting raw HTML and PDF text from restaurant websites, many files turned out to be non-menu pages such as contact information, image placeholders, or empty files.  
-To ensure high-quality downstream data, we used **Gemini 2.5 Flash** to classify valid menus.
+Many scraped files corresponded to non-menu pages (contact pages, placeholders, empty files).  
+To ensure data quality, **Gemini 2.5 Flash** was used to classify valid menus.
 
 **Model:** Gemini 2.5 Flash  
 **System Instruction:**
 "You are an expert document classifier. Your only output must be 'yes' or 'no'. 
 Do not include any explanations, punctuation, or other text."
 
-### Step 2: **Structured Menu Extraction**
-**Folder:** `data_prep/menu_extraction/extract_menu.py`  
-**Goal:** Extract dishes, prices, and descriptions from restaurant menus  
+#### Step 2: Structured Menu Extraction
+**Script:** `extract_menu.py`  
+**Goal:** Extract dishes, prices, and descriptions from validated menus.
+
 **Model:** Gemini 2.5 Flash  
-**Process Flow:**  
-1. Input: Text output from Phase 1 (validated menus)  
-2. Parse restaurant text for structured information  
-3. Extract fields in the format → `[Item | Price | Description]`  
-4. Store results in JSON format for downstream analysis  
+**Process Flow:**
+1. Input: Text output from menu validation  
+2. Parse menu text for structured information  
+3. Extract fields → `[Item | Price | Description]`  
+4. Store results in JSON format for downstream analysis and modeling  
 
 ## 🧠 Data Curation and Labeling
 
 In parallel with the menu extraction pipeline, we curated and cleaned **open-source datasets** from **Kaggle** and **Hugging Face** to construct a **synthetic training corpus** for the dish classifier.  
 
-We then:  
+Steps included: 
 - Standardized dish and cuisine categories  
 - Merged synthetic data with **manually labeled samples** from real-world **Yelp data**  
 - Ensured diversity in cuisines and menu styles for robust model generalization  
 - Produced a unified, labeled dataset used for model training and evaluation  
 
-## 🔁 Cross-Validation Strategy 
+## 4) Cross-Validation Strategy 
 
 ### Overview
-To ensure the classifier generalizes well across synthetic and real-world datasets, we implemented a **5-fold cross-validation** pipeline. Both the **synthetic training corpus** and **Yelp real-world training data** were split into **five non-overlapping folds** each.
+To evaluate generalization across synthetic and real-world data, a **5-fold cross-validation** pipeline was implemented.  
+Both datasets were split into **five non-overlapping folds**.
 
 ### Process
 
@@ -124,20 +124,21 @@ To ensure the classifier generalizes well across synthetic and real-world datase
    - Analyze the performance gap between synthetic and real-world evaluations to measure generalization strength.
 
 ### Outcome
-This approach provided a **balanced and reliable measure of model performance**, confirming that the classifier maintained consistent accuracy across both curated and real-world datasets.
+This approach provided a balanced estimate of model performance and confirmed stable generalization to real-world Yelp data.
+
 
 ## 3. Model Training and Evaluation
 
 ### Overview
 Model training was conducted in two phases:  
-Phase 1. **Baseline Model Development** — classical machine learning approaches  
-Phase 2. **LLM Fine-Tuning** — transformer-based model optimization for contextual understanding  
+Step 1. **Baseline Model Development** — classical machine learning approaches  
+Step 2. **LLM Fine-Tuning** — transformer-based model optimization for contextual understanding  
 
 All models were evaluated using the 5-fold cross-validation pipeline described earlier.
 
 ---
 
-### Phase 1: 🧩 Baseline Model Development
+### Step 1: 🧩 Baseline Model Development
 **Folder:** `model_training/baseline_models/`  
 
 **Goal:** Establish a baseline for text-based dish classification using traditional machine learning models.
@@ -169,7 +170,7 @@ The TF-IDF–based XGBoost model performed best among baseline classifiers, achi
 
 ---
 
-### Phase 2: 🤖 LLM Model Fine-Tuning
+### Step 2: 🤖 LLM Model Fine-Tuning
 **Folder:** `model_training/LLM_Model_Finetuning/`  
 
 **Goal:** Improve contextual understanding of menu text using transformer-based language models.
@@ -197,25 +198,12 @@ The TF-IDF–based XGBoost model performed best among baseline classifiers, achi
 | **mBERT** | Similar to BERT (no significant gain) | — |
 
 **Model Selection:**  
-BERT was chosen as the **final production model** because it provides nearly identical performance to DeBERTa while being more computationally efficient and faster to deploy.
+BERT was selected as the final production model due to similar performance to DeBERTa with lower computational cost.
 
 **Final Evaluation:**  
-Cross-validation and final testing confirmed BERT’s stable performance across both datasets — achieving an average **0.94 F1-score** on real-world Yelp menu data.
+Fine-tuned BERT provided the best balance between accuracy, efficiency, and real-world generalization.
 
 ---
-
-### Summary
-| Model Family | Best Model | Synthetic F1 | Real Yelp F1 | Notes |
-|---------------|-------------|--------------|--------------|-------|
-| Traditional ML | XGBoost | 0.95 | 0.90 | Strong baseline |
-| Transformer (LLM) | BERT | 0.98 | 0.94 | Selected final model |
-| Transformer (LLM) | DeBERTa | 0.98 | 0.94 | Similar but heavier |
-| Transformer (LLM) | Gemma-3 | 0.40 | 0.40 | Poor performance |
-
----
-
-**Conclusion:**  
-Fine-tuned BERT provided the best balance between accuracy, model size, and generalization across synthetic and real-world restaurant data.  
 
 ## 🚀 4. Deployment
 
